@@ -158,7 +158,18 @@
   ],
   "sim_account": {
     "balance": 5000.167659999999,
-    "positions": []
+    "positions": [
+      {
+        "id": "e117e13936",
+        "symbol": "GBPUSD",
+        "side": "buy",
+        "volume": 0.01,
+        "entry_price": 1.33378,
+        "sl": 1.3318,
+        "tp": 1.3358,
+        "open_time": "2026-07-26T19:12:08.329052+00:00"
+      }
+    ]
   },
   "trade_log": [
     {
@@ -260,6 +271,25 @@
       "account": "demo",
       "status": "closed",
       "closed_time": "2026-07-26T19:05:06.349595+00:00"
+    },
+    {
+      "id": "e117e13936",
+      "time": "2026-07-26T19:12:08.329068+00:00",
+      "symbol": "GBPUSD",
+      "side": "buy",
+      "volume": 0.01,
+      "entry": 1.33378,
+      "sl": 1.3318,
+      "tp": 1.3358,
+      "risk_reward": 1.02,
+      "expected_profit": 0.0,
+      "expected_loss": -0.0,
+      "actual_pnl": null,
+      "confidence": 75,
+      "reason": "Sell-side liquidity sweep below 1.33192 followed by strong bullish displacement and CHoCH on the 15m timeframe.",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
     }
   ]
 }
