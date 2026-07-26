@@ -69,6 +69,14 @@
     {
       "role": "model",
       "text": "I am unable to perform market structure analysis or provide predictions on whether Gold will be bullish or bearish. My function is to assist with trade execution and settings management based on your explicit instructions, not to provide market analysis or financial advice.\n\nIf you have specific trade instructions or need to adjust your manual trade settings, please let me know!"
+    },
+    {
+      "role": "user",
+      "text": "how many pairs did you check"
+    },
+    {
+      "role": "model",
+      "text": "The auto-trader checks a total of 6 pairs: XAUUSD, EURUSD, GBPUSD, USDJPY, BTCUSD, and ETHUSD."
     }
   ]
 }
