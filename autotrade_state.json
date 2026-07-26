@@ -150,7 +150,38 @@
   ],
   "sim_account": {
     "balance": 4999.8143,
-    "positions": []
+    "positions": [
+      {
+        "id": "cbd3042aba",
+        "symbol": "XAUUSD",
+        "side": "buy",
+        "volume": 0.01,
+        "entry_price": 4055.8919,
+        "sl": null,
+        "tp": null,
+        "open_time": "2026-07-26T18:28:29.299467+00:00"
+      }
+    ]
   },
-  "trade_log": []
+  "trade_log": [
+    {
+      "id": "cbd3042aba",
+      "time": "2026-07-26T18:28:29.299494+00:00",
+      "symbol": "XAUUSD",
+      "side": "buy",
+      "volume": 0.01,
+      "entry": 4055.8919,
+      "sl": null,
+      "tp": null,
+      "risk_reward": null,
+      "expected_profit": null,
+      "expected_loss": null,
+      "actual_pnl": null,
+      "confidence": null,
+      "reason": "",
+      "source": "manual",
+      "account": "demo",
+      "status": "open"
+    }
+  ]
 }
