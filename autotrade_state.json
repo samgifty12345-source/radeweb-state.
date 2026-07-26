@@ -173,19 +173,8 @@
     }
   ],
   "sim_account": {
-    "balance": 5000.1666159999995,
-    "positions": [
-      {
-        "id": "5c49ffb812",
-        "symbol": "EURUSD",
-        "side": "buy",
-        "volume": 0.13,
-        "entry_price": 1.13748,
-        "sl": 1.1363,
-        "tp": 1.143,
-        "open_time": "2026-07-26T20:07:40.208773+00:00"
-      }
-    ]
+    "balance": 5000.169645,
+    "positions": []
   },
   "trade_log": [
     {
@@ -340,12 +329,13 @@
       "risk_reward": 4.68,
       "expected_profit": 0.01,
       "expected_loss": -0.0,
-      "actual_pnl": null,
+      "actual_pnl": 0.0,
       "confidence": 75,
       "reason": "Bullish CHoCH on 1h following a 15m liquidity sweep below 1.1365 with strong upward displacement.",
       "source": "autotrade-sim",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-07-26T22:09:01.894371+00:00"
     }
   ]
 }
