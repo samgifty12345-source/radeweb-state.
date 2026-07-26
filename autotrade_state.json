@@ -149,7 +149,7 @@
     }
   ],
   "sim_account": {
-    "balance": 4999.84154,
+    "balance": 5000.0046,
     "positions": [
       {
         "id": "cbd3042aba",
@@ -170,26 +170,6 @@
         "sl": null,
         "tp": null,
         "open_time": "2026-07-26T18:28:33.598568+00:00"
-      },
-      {
-        "id": "0e486c7cf6",
-        "symbol": "XAUUSD",
-        "side": "buy",
-        "volume": 0.01,
-        "entry_price": 4055.8919,
-        "sl": null,
-        "tp": null,
-        "open_time": "2026-07-26T18:28:36.783474+00:00"
-      },
-      {
-        "id": "515e678e2f",
-        "symbol": "XAUUSD",
-        "side": "buy",
-        "volume": 0.01,
-        "entry_price": 4055.8919,
-        "sl": null,
-        "tp": null,
-        "open_time": "2026-07-26T18:28:38.812490+00:00"
       }
     ]
   },
@@ -244,12 +224,13 @@
       "risk_reward": null,
       "expected_profit": null,
       "expected_loss": null,
-      "actual_pnl": null,
+      "actual_pnl": 0.08,
       "confidence": null,
       "reason": "",
       "source": "manual",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-07-26T19:05:07.289921+00:00"
     },
     {
       "id": "515e678e2f",
@@ -263,12 +244,13 @@
       "risk_reward": null,
       "expected_profit": null,
       "expected_loss": null,
-      "actual_pnl": null,
+      "actual_pnl": 0.08,
       "confidence": null,
       "reason": "",
       "source": "manual",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-07-26T19:05:06.847522+00:00"
     },
     {
       "id": "5416bf6d9d",
