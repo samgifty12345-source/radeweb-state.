@@ -146,6 +146,14 @@
     {
       "role": "model",
       "text": "The auto-trader runs continuously in cycles, scanning the entire watchlist multiple times per minute to identify potential trading opportunities. It doesn't have a fixed number of \"runs\" as it's an ongoing process."
+    },
+    {
+      "role": "user",
+      "text": "well"
+    },
+    {
+      "role": "model",
+      "text": "Is there anything specific you'd like to check or execute? I can update your manual settings, check trade history, or place and close trades whenever you give the command."
     }
   ],
   "sim_account": {
