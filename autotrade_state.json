@@ -160,6 +160,16 @@
         "sl": null,
         "tp": null,
         "open_time": "2026-07-26T18:28:29.299467+00:00"
+      },
+      {
+        "id": "78f5427343",
+        "symbol": "XAUUSD",
+        "side": "buy",
+        "volume": 0.01,
+        "entry_price": 4055.8919,
+        "sl": null,
+        "tp": null,
+        "open_time": "2026-07-26T18:28:33.598568+00:00"
       }
     ]
   },
@@ -167,6 +177,25 @@
     {
       "id": "cbd3042aba",
       "time": "2026-07-26T18:28:29.299494+00:00",
+      "symbol": "XAUUSD",
+      "side": "buy",
+      "volume": 0.01,
+      "entry": 4055.8919,
+      "sl": null,
+      "tp": null,
+      "risk_reward": null,
+      "expected_profit": null,
+      "expected_loss": null,
+      "actual_pnl": null,
+      "confidence": null,
+      "reason": "",
+      "source": "manual",
+      "account": "demo",
+      "status": "open"
+    },
+    {
+      "id": "78f5427343",
+      "time": "2026-07-26T18:28:33.598585+00:00",
       "symbol": "XAUUSD",
       "side": "buy",
       "volume": 0.01,
