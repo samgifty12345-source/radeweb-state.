@@ -190,6 +190,16 @@
         "sl": null,
         "tp": null,
         "open_time": "2026-07-26T18:28:38.812490+00:00"
+      },
+      {
+        "id": "5416bf6d9d",
+        "symbol": "XAUUSD",
+        "side": "sell",
+        "volume": 0.01,
+        "entry_price": 4056.00067,
+        "sl": null,
+        "tp": null,
+        "open_time": "2026-07-26T18:29:35.002503+00:00"
       }
     ]
   },
@@ -267,6 +277,25 @@
       "confidence": null,
       "reason": "",
       "source": "manual",
+      "account": "demo",
+      "status": "open"
+    },
+    {
+      "id": "5416bf6d9d",
+      "time": "2026-07-26T18:29:35.002519+00:00",
+      "symbol": "XAUUSD",
+      "side": "sell",
+      "volume": 0.01,
+      "entry": 4056.00067,
+      "sl": null,
+      "tp": null,
+      "risk_reward": null,
+      "expected_profit": null,
+      "expected_loss": null,
+      "actual_pnl": null,
+      "confidence": null,
+      "reason": "Manual command via chat",
+      "source": "chat",
       "account": "demo",
       "status": "open"
     }
