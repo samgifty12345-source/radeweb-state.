@@ -154,6 +154,14 @@
     {
       "role": "model",
       "text": "Is there anything specific you'd like to check or execute? I can update your manual settings, check trade history, or place and close trades whenever you give the command."
+    },
+    {
+      "role": "user",
+      "text": "what happend"
+    },
+    {
+      "role": "model",
+      "text": "The Auto-Trader recently executed a trade based on its latest scan!\n\nHere's what happened:\n- **Position Opened:** BUY 0.01 lots GBPUSD @ 1.33378 (TP: 1.3358, SL: 1.3318)\n- **Confidence:** 75% (passed the 70% threshold)\n- **Reason:** Sell-side liquidity sweep below 1.33192 with strong bullish displacement and CHoCH on the 15m timeframe.\n\nThis trade is currently **OPEN**. Let me know if you'd like me to close it or adjust any parameters!"
     }
   ],
   "sim_account": {
