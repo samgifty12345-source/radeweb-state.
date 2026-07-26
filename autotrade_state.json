@@ -61,6 +61,14 @@
     {
       "role": "model",
       "text": "I cannot provide market predictions or express opinions on whether Gold will be bullish or bearish this week, as I am an AI trading assistant and not a financial advisor. My purpose is to help you execute trades and manage your settings based on your instructions.\n\nWould you like to know anything about Gold's current data or adjust your manual trading settings for XAUUSD?"
+    },
+    {
+      "role": "user",
+      "text": "no dont worry just a take check market structuee and tell me"
+    },
+    {
+      "role": "model",
+      "text": "I am unable to perform market structure analysis or provide predictions on whether Gold will be bullish or bearish. My function is to assist with trade execution and settings management based on your explicit instructions, not to provide market analysis or financial advice.\n\nIf you have specific trade instructions or need to adjust your manual trade settings, please let me know!"
     }
   ]
 }
