@@ -130,6 +130,14 @@
     {
       "role": "model",
       "text": "The auto-trader uses a sophisticated algorithm that incorporates various concepts and analyses, which can include elements found in indicators like:\n\n*   **Break of Structure (BOS):** Identifying shifts in market momentum and trend.\n*   **Fair Value Gaps (FVG):** Pinpointing inefficiencies in price action that may act as points of interest.\n*   **RSI (Relative Strength Index):** To gauge overbought or oversold conditions.\n*   **Volatility and Price Action:** Assessing the strength and nature of price movements.\n\nThese are not necessarily traditional 'indicators' in the sense of a single line on a chart, but rather concepts derived from price action analysis that help determine confidence levels and potential trade setups."
+    },
+    {
+      "role": "user",
+      "text": "hello"
+    },
+    {
+      "role": "model",
+      "text": "Hello! How can I assist you today?"
     }
   ],
   "sim_account": {
