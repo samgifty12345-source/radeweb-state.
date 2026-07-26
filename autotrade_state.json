@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "how about now"
-    },
-    {
-      "role": "model",
-      "text": "The auto-trader continuously scans the entire watchlist: XAUUSD, EURUSD, GBPUSD, USDJPY, BTCUSD, and ETHUSD. For each of these 6 pairs, it checks 4 timeframes: 15min, 30min, 1h, and 4h. A trade only fires if a pair scores 70+ confidence out of 100, with a max loss of $300 and a profit target of $300 per position.\n\nAs of now, the auto-trader has not identified any new high-confidence trade opportunities that meet its criteria since the last check."
-    },
-    {
-      "role": "user",
       "text": "run a scan plas"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "Hello again! Is there something specific you'd like to discuss or any questions about the markets or your trades?"
+    },
+    {
+      "role": "user",
+      "text": "whats yiur take on this curent trade"
+    },
+    {
+      "role": "model",
+      "text": "The current open trade is a BUY position on EURUSD with 0.13 lots at 1.13748. The auto-trader initiated this trade due to a bullish CHoCH on the 1h timeframe following a 15m liquidity sweep below 1.1365 with strong upward displacement. The trade has a stop loss at 1.1363 and a take profit at 1.143, with an expected profit/loss ratio of 1:4.68 and 75% confidence. Given the current market conditions and the trade's parameters, it seems like the trade is positioned to capitalize on a potential upward move in EURUSD. However, it's essential to continue monitoring the trade's performance and adjust as needed."
     }
   ],
   "sim_account": {
