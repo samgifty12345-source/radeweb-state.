@@ -53,6 +53,14 @@
     {
       "role": "model",
       "text": "The current price of XAUUSD (Gold) is 4055.99404."
+    },
+    {
+      "role": "user",
+      "text": "do you think gold is going to be bullish or bersih this week"
+    },
+    {
+      "role": "model",
+      "text": "I cannot provide market predictions or express opinions on whether Gold will be bullish or bearish this week, as I am an AI trading assistant and not a financial advisor. My purpose is to help you execute trades and manage your settings based on your instructions.\n\nWould you like to know anything about Gold's current data or adjust your manual trading settings for XAUUSD?"
     }
   ]
 }
