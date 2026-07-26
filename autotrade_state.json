@@ -29,6 +29,14 @@
     {
       "role": "model",
       "text": "I don't have granular details about the specific indicators or analysis methodology used for the 'high-confidence trade opportunity' assessment during the auto-trade check. The system simply reported that no such opportunity met its criteria (confidence >=70 and favorable risk-reward) at that time. My current monitoring is focused on XAUUSD on the 15-minute timeframe."
+    },
+    {
+      "role": "user",
+      "text": "how about now"
+    },
+    {
+      "role": "model",
+      "text": "The auto-trader continuously scans the entire watchlist: XAUUSD, EURUSD, GBPUSD, USDJPY, BTCUSD, and ETHUSD. For each of these 6 pairs, it checks 4 timeframes: 15min, 30min, 1h, and 4h. A trade only fires if a pair scores 70+ confidence out of 100, with a max loss of $300 and a profit target of $300 per position.\n\nAs of now, the auto-trader has not identified any new high-confidence trade opportunities that meet its criteria since the last check."
     }
   ]
 }
