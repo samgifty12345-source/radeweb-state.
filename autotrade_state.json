@@ -45,6 +45,14 @@
     {
       "role": "model",
       "text": "The auto-trader is always scanning the entire watchlist (XAUUSD, EURUSD, GBPUSD, USDJPY, BTCUSD, ETHUSD) across all specified timeframes (15min, 30min, 1h, 4h) in every cycle. As of this moment, it has not identified any new trade opportunities that meet the 70+ confidence threshold with the specified risk/profit targets."
+    },
+    {
+      "role": "user",
+      "text": "whats golds current price"
+    },
+    {
+      "role": "model",
+      "text": "The current price of XAUUSD (Gold) is 4055.99404."
     }
   ]
 }
