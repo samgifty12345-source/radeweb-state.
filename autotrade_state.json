@@ -138,6 +138,14 @@
     {
       "role": "model",
       "text": "Hello! How can I assist you today?"
+    },
+    {
+      "role": "user",
+      "text": "How many runs have you done"
+    },
+    {
+      "role": "model",
+      "text": "The auto-trader runs continuously in cycles, scanning the entire watchlist multiple times per minute to identify potential trading opportunities. It doesn't have a fixed number of \"runs\" as it's an ongoing process."
     }
   ],
   "sim_account": {
