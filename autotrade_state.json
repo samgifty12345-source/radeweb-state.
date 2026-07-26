@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "do you think gold is going to be bullish or bersih this week"
-    },
-    {
-      "role": "model",
-      "text": "I cannot provide market predictions or express opinions on whether Gold will be bullish or bearish this week, as I am an AI trading assistant and not a financial advisor. My purpose is to help you execute trades and manage your settings based on your instructions.\n\nWould you like to know anything about Gold's current data or adjust your manual trading settings for XAUUSD?"
-    },
-    {
-      "role": "user",
       "text": "no dont worry just a take check market structuee and tell me"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "{\"reply\": \"Strictly looking at the ICT / market structure setup, I actually rate this trade setup very favorably for a few key reasons:\n\n1. **Clean Liquidity Sweep & Displacement:** Sweeping the 1.1365 sell-side liquidity level before displacing upward to form a Change of Character (CHoCH) on the 1h timeframe is a textbook ICT bullish setup. It indicates smart money engineered liquidity below equal/swing lows before accumulating buy orders.\n2. **Asymmetric Risk/Reward (1:4.68):** Risking only ~11.8 pips (SL at 1.1363) to target 55.2 pips (TP at 1.1430) gives you great mathematical expectancy. Even with a sub-50% win rate over time, trades with this R:R profile keep the equity curve moving up.\n3. **Invalidation point is precise:** Placing the stop loss at 1.1363 right below the sweep low gives a clear line in the sand\u2014if price drops below 1.1363, the bullish narrative is completely invalidated and the trade exits with minimal draw.\n\n**Watchouts:** Ensure there isn't major high-impact news incoming that could cause sudden spread expansion. Otherwise, from a pure price action standpoint, letting this trade play out to either SL or TP is a solid disciplined approach.\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
+    },
+    {
+      "role": "user",
+      "text": "whats where the ccnficendc rates"
+    },
+    {
+      "role": "model",
+      "text": "{\"reply\": \"Here are the confidence scores for every pair from the latest scan cycle:\n\n- **EURUSD:** **75%** (BUY) \u2014 *Triggered the trade!* (Liquidity sweep below 1.1365 followed by bullish CHoCH)\n- **ETHUSD:** **62%** (Hold) \u2014 Strong uptrend, but currently overbought and extended\n- **GBPUSD:** **60%** (Hold) \u2014 Liquidity sweep at 1.3316, but weak follow-through\n- **BTCUSD:** **50%** (Hold) \u2014 Consolidating near 64,700 after liquidity sweep at 64,940\n- **XAUUSD (Gold):** **35%** (Hold) \u2014 Tight consolidation with no clear ICT displacement\n- **USDJPY:** **35%** (Hold) \u2014 Ranging market with double wicks and chop\n\nRemember, the auto-trader requires a score of **70+ confidence** to fire a trade, which is why only EURUSD triggered.\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
     }
   ],
   "sim_account": {
