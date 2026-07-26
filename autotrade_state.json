@@ -149,7 +149,7 @@
     }
   ],
   "sim_account": {
-    "balance": 4999.8143,
+    "balance": 4999.84154,
     "positions": [
       {
         "id": "cbd3042aba",
@@ -190,16 +190,6 @@
         "sl": null,
         "tp": null,
         "open_time": "2026-07-26T18:28:38.812490+00:00"
-      },
-      {
-        "id": "5416bf6d9d",
-        "symbol": "XAUUSD",
-        "side": "sell",
-        "volume": 0.01,
-        "entry_price": 4056.00067,
-        "sl": null,
-        "tp": null,
-        "open_time": "2026-07-26T18:29:35.002503+00:00"
       }
     ]
   },
@@ -292,12 +282,13 @@
       "risk_reward": null,
       "expected_profit": null,
       "expected_loss": null,
-      "actual_pnl": null,
+      "actual_pnl": 0.03,
       "confidence": null,
       "reason": "Manual command via chat",
       "source": "chat",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-07-26T19:05:06.349595+00:00"
     }
   ]
 }
