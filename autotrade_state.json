@@ -5,7 +5,7 @@
     "volume": 0.01,
     "risk_notes": "",
     "lot_sizes": {
-      "gold": 0.01,
+      "gold": 0.1,
       "btc": 0.1,
       "forex": 0.1
     }
