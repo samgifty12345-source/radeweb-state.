@@ -101,6 +101,14 @@
     {
       "role": "model",
       "text": "Acknowledged. Placing a buy trade for ETHUSD with a lot size of 0.07.\n\n\u2705 Placed BUY 0.07 lots on ETHUSD on your DEMO account (real account unavailable right now)."
+    },
+    {
+      "role": "user",
+      "text": "im asking a qusetion here do you also know hw to clso trades ?"
+    },
+    {
+      "role": "model",
+      "text": "Yes, I do know how to close trades. If you have any open positions that you would like to close, please tell me which symbol and position you want to close, or if you want to close all open positions."
     }
   ],
   "sim_account": {
