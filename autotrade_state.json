@@ -5,9 +5,9 @@
     "volume": 0.01,
     "risk_notes": "",
     "lot_sizes": {
-      "gold": 0.02,
+      "gold": 0.01,
       "btc": 0.1,
-      "forex": 0.01
+      "forex": 0.1
     }
   },
   "chat_history": [
