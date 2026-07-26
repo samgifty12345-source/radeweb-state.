@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "how many pairs and how many tine frames did it check"
-    },
-    {
-      "role": "model",
-      "text": "My last auto-trade check didn't specify the exact number of pairs or timeframes it scanned. My current active monitoring settings are for XAUUSD on the 15-minute timeframe."
-    },
-    {
-      "role": "user",
       "text": "can you tell me the detaus of the nalysisi"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "I am the primary trading assistant built into the Icon dashboard, but I can relay DeepSeek's independent second opinion on market scans when it is enabled. Currently, there is no DeepSeek review available yet (either the DEEPSEEK_API_KEY needs to be set in your environment, or we are waiting for the next scan cycle). In the meantime, I can help you analyze the market, check trade setups, or manage your positions directly!"
+    },
+    {
+      "role": "user",
+      "text": "hello"
+    },
+    {
+      "role": "model",
+      "text": "Hello! How can I help you today?"
     }
   ],
   "sim_account": {
