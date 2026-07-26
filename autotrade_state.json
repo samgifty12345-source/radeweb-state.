@@ -112,18 +112,8 @@
     }
   ],
   "sim_account": {
-    "balance": 5000.0,
+    "balance": 5000.101,
     "positions": [
-      {
-        "id": "9f7b9d1993",
-        "symbol": "ETHUSD",
-        "side": "buy",
-        "volume": 0.02,
-        "entry_price": 1893.54,
-        "sl": 1886.0,
-        "tp": 1905.0,
-        "open_time": "2026-07-26T14:24:06.256133+00:00"
-      },
       {
         "id": "8454da6d4a",
         "symbol": "ETHUSD",
