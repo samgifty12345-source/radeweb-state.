@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "run a scan plas"
-    },
-    {
-      "role": "model",
-      "text": "The auto-trader is always scanning the entire watchlist (XAUUSD, EURUSD, GBPUSD, USDJPY, BTCUSD, ETHUSD) across all specified timeframes (15min, 30min, 1h, 4h) in every cycle. As of this moment, it has not identified any new trade opportunities that meet the 70+ confidence threshold with the specified risk/profit targets."
-    },
-    {
-      "role": "user",
       "text": "whats golds current price"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "The current open trade is a BUY position on EURUSD with 0.13 lots at 1.13748. The auto-trader initiated this trade due to a bullish CHoCH on the 1h timeframe following a 15m liquidity sweep below 1.1365 with strong upward displacement. The trade has a stop loss at 1.1363 and a take profit at 1.143, with an expected profit/loss ratio of 1:4.68 and 75% confidence. Given the current market conditions and the trade's parameters, it seems like the trade is positioned to capitalize on a potential upward move in EURUSD. However, it's essential to continue monitoring the trade's performance and adjust as needed."
+    },
+    {
+      "role": "user",
+      "text": "do agree with itt ?"
+    },
+    {
+      "role": "model",
+      "text": "As a trading assistant, I can provide analysis and insights, but I don't have personal opinions or biases. However, I can tell you that the auto-trader's decision to initiate the EURUSD buy trade is based on its algorithmic analysis of the market conditions and technical indicators. The 75% confidence level suggests that the auto-trader has identified a relatively strong trading opportunity. That being said, it's always important to consider multiple perspectives and stay vigilant, as market conditions can change rapidly."
     }
   ],
   "sim_account": {
