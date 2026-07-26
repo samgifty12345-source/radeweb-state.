@@ -142,6 +142,17 @@
   ],
   "sim_account": {
     "balance": 5001.1937,
-    "positions": []
+    "positions": [
+      {
+        "id": "2245adc7cb",
+        "symbol": "BTCUSD",
+        "side": "buy",
+        "volume": 0.02,
+        "entry_price": 64743.0,
+        "sl": 64700.0,
+        "tp": 64950.0,
+        "open_time": "2026-07-26T16:04:20.028512+00:00"
+      }
+    ]
   }
 }
