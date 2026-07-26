@@ -1,0 +1,18 @@
+{
+  "settings": {
+    "symbol": "XAUUSD",
+    "interval": "15min",
+    "volume": 0.01,
+    "risk_notes": ""
+  },
+  "chat_history": [
+    {
+      "role": "user",
+      "text": "have you placed a trade"
+    },
+    {
+      "role": "model",
+      "text": "No, I haven't placed a trade. The last auto-trade check indicated that no pair presented a high-confidence trade opportunity with an immediately favorable risk-reward ratio for disciplined entry."
+    }
+  ]
+}
