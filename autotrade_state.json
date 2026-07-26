@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "can you tell me the detaus of the nalysisi"
-    },
-    {
-      "role": "model",
-      "text": "I don't have granular details about the specific indicators or analysis methodology used for the 'high-confidence trade opportunity' assessment during the auto-trade check. The system simply reported that no such opportunity met its criteria (confidence >=70 and favorable risk-reward) at that time. My current monitoring is focused on XAUUSD on the 15-minute timeframe."
-    },
-    {
-      "role": "user",
       "text": "how about now"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "Hello! How can I help you today?"
+    },
+    {
+      "role": "user",
+      "text": "hi"
+    },
+    {
+      "role": "model",
+      "text": "Hello again! Is there something specific you'd like to discuss or any questions about the markets or your trades?"
     }
   ],
   "sim_account": {
