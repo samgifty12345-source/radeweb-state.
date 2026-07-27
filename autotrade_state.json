@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "How many runs have you done"
-    },
-    {
-      "role": "model",
-      "text": "The auto-trader runs continuously in cycles, scanning the entire watchlist multiple times per minute to identify potential trading opportunities. It doesn't have a fixed number of \"runs\" as it's an ongoing process."
-    },
-    {
-      "role": "user",
       "text": "well"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "{\"reply\": \"Here's a summary of today's trading activity:\n\n**Total Trades:** 5\n\n**Wins:** 3\n\n* **ETHUSD BUY**: $2.11 profit\n* **BTCUSD BUY**: $176.76 profit\n* **BTCUSD BUY (earlier trade)**: $564.36 profit (not shown in the recent trades list, but part of the day's activity)\n\n**Losses:** 2\n\n* **XAUUSD BUY**: -$352.80 loss\n* **XAUUSD BUY (later trade)**: -$165.92 loss\n\n**Overall P/L:** $224.45 profit\n\nThe Auto-Trader's strategy and risk management helped to limit losses and capitalize on profitable opportunities, resulting in a positive overall P/L for the day. If you have any questions or would like more information, feel free to ask!\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
+    },
+    {
+      "role": "user",
+      "text": "hi"
+    },
+    {
+      "role": "model",
+      "text": "Hello! How can I assist you today? Would you like to discuss the current market conditions, review the recent trades, or explore a specific trading strategy?"
     }
   ],
   "sim_account": {
