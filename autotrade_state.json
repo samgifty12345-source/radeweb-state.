@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "no dont worry just a take check market structuee and tell me"
-    },
-    {
-      "role": "model",
-      "text": "I am unable to perform market structure analysis or provide predictions on whether Gold will be bullish or bearish. My function is to assist with trade execution and settings management based on your explicit instructions, not to provide market analysis or financial advice.\n\nIf you have specific trade instructions or need to adjust your manual trade settings, please let me know!"
-    },
-    {
-      "role": "user",
       "text": "how many pairs did you check"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "{\"reply\": \"Here are the confidence scores for every pair from the latest scan cycle:\n\n- **EURUSD:** **75%** (BUY) \u2014 *Triggered the trade!* (Liquidity sweep below 1.1365 followed by bullish CHoCH)\n- **ETHUSD:** **62%** (Hold) \u2014 Strong uptrend, but currently overbought and extended\n- **GBPUSD:** **60%** (Hold) \u2014 Liquidity sweep at 1.3316, but weak follow-through\n- **BTCUSD:** **50%** (Hold) \u2014 Consolidating near 64,700 after liquidity sweep at 64,940\n- **XAUUSD (Gold):** **35%** (Hold) \u2014 Tight consolidation with no clear ICT displacement\n- **USDJPY:** **35%** (Hold) \u2014 Ranging market with double wicks and chop\n\nRemember, the auto-trader requires a score of **70+ confidence** to fire a trade, which is why only EURUSD triggered.\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
+    },
+    {
+      "role": "user",
+      "text": "what did u get"
+    },
+    {
+      "role": "model",
+      "text": "{\"reply\": \"If you are asking about the **latest scan cycle**, here is what was generated across all pairs:\n\n- **BTCUSD:** 60% confidence \u2014 Hold (retracing into 1h order block near 65,100)\n- **EURUSD:** 55% confidence \u2014 Hold (bullish breakout above 1.1402; awaiting pullback to FVG)\n- **ETHUSD:** 55% confidence \u2014 Hold (awaiting 15m CHoCH confirmation)\n- **GBPUSD:** 50% confidence \u2014 Hold (strong upside into overbought RSI; waiting for retest)\n- **USDJPY:** 50% confidence \u2014 Hold (bearish BOS below 163.60; needs pullback)\n- **XAUUSD:** 40% confidence \u2014 Hold (liquidity sweep above 4116 with sharp rejection)\n\nSince no symbol hit the **70% confidence threshold**, no new trades were opened in this cycle.\n\nIf you were asking about the **EURUSD trade outcome**, it has since closed out at breakeven ($0.00 P/L).\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
     }
   ],
   "sim_account": {
