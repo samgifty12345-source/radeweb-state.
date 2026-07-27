@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "what indocater where used"
-    },
-    {
-      "role": "model",
-      "text": "The auto-trader uses a sophisticated algorithm that incorporates various concepts and analyses, which can include elements found in indicators like:\n\n*   **Break of Structure (BOS):** Identifying shifts in market momentum and trend.\n*   **Fair Value Gaps (FVG):** Pinpointing inefficiencies in price action that may act as points of interest.\n*   **RSI (Relative Strength Index):** To gauge overbought or oversold conditions.\n*   **Volatility and Price Action:** Assessing the strength and nature of price movements.\n\nThese are not necessarily traditional 'indicators' in the sense of a single line on a chart, but rather concepts derived from price action analysis that help determine confidence levels and potential trade setups."
-    },
-    {
-      "role": "user",
       "text": "hello"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "{\"reply\": \"Here's a breakdown of today's trades:\n\n1. **BTCUSD BUY**: \n   - **Entry**: 65,225.67\n   - **Stop Loss**: 65,050.00\n   - **Take Profit**: 65,650.00\n   - **Result**: Still open, currently in profit\n   - **Confidence**: 75%\n   - **Rationale**: Bullish higher timeframe continuation following a 15-minute sell-side liquidity sweep down at 65,100 with strong rejection displacement back up.\n\n2. **ETHUSD BUY**:\n   - **Entry**: 1,946.21\n   - **Stop Loss**: 1,935.00\n   - **Take Profit**: 1,965.00\n   - **Result**: Closed in profit\n   - **Confidence**: 78%\n   - **Rationale**: ETHUSD swept local sell-side liquidity into a key demand zone and printed a strong 15-minute bullish reversal candle.\n\n3. **XAUUSD BUY**:\n   - **Entry**: 4,082.09\n   - **Stop Loss**: 4,069.00\n   - **Take Profit**: 4,102.00\n   - **Result**: Closed in loss\n   - **Confidence**: 75%\n   - **Rationale**: XAUUSD swept sell-side liquidity at 4,064.74, created a 15-minute CHoCH to 4,094.61, and retested the demand zone with higher lows.\n\nThese trades were executed based on the Auto-Trader's analysis of market conditions and technical indicators. If you'd like more information or have questions about a specific trade, feel free to ask!\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
+    },
+    {
+      "role": "user",
+      "text": "and where they wins ?"
+    },
+    {
+      "role": "model",
+      "text": "{\"reply\": \"Here are the results of the trades that were winners:\n\n1. **ETHUSD BUY**:\n   - **Entry**: 1,946.21\n   - **Stop Loss**: 1,935.00\n   - **Take Profit**: 1,965.00\n   - **Result**: Closed in profit of $2.11\n   - **Confidence**: 78%\n   - **Rationale**: ETHUSD swept local sell-side liquidity into a key demand zone and printed a strong 15-minute bullish reversal candle.\n\n2. **BTCUSD BUY**:\n   - **Entry**: 65,225.67\n   - **Stop Loss**: 65,050.00\n   - **Take Profit**: 65,650.00\n   - **Result**: Closed in profit of $176.76\n   - **Confidence**: 75%\n   - **Rationale**: Bullish higher timeframe continuation following a 15-minute sell-side liquidity sweep down at 65,100 with strong rejection displacement back up.\n\nThese two trades were the winners for the day. The Auto-Trader's strategy and analysis of market conditions helped to identify these profitable opportunities. If you have any questions or would like more information, feel free to ask!\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
     }
   ],
   "sim_account": {
