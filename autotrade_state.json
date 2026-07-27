@@ -173,19 +173,8 @@
     }
   ],
   "sim_account": {
-    "balance": 5179.035645000003,
-    "positions": [
-      {
-        "id": "b369841a1c",
-        "symbol": "XAUUSD",
-        "side": "buy",
-        "volume": 0.21,
-        "entry_price": 4100.67232,
-        "sl": 4086.5,
-        "tp": 4116.0,
-        "open_time": "2026-07-27T10:58:40.397196+00:00"
-      }
-    ]
+    "balance": 4826.237115000009,
+    "positions": []
   },
   "trade_log": [
     {
@@ -400,12 +389,13 @@
       "risk_reward": 1.08,
       "expected_profit": 321.88,
       "expected_loss": -297.62,
-      "actual_pnl": null,
+      "actual_pnl": -352.8,
       "confidence": 82,
       "reason": "XAUUSD completed a 15-minute sell-side liquidity sweep at 4087 followed by strong bullish CHoCH displacement.",
       "source": "autotrade-sim",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-07-27T13:10:58.062137+00:00"
     }
   ]
 }
