@@ -173,7 +173,7 @@
     }
   ],
   "sim_account": {
-    "balance": 4660.242035000005,
+    "balance": 4660.282855000005,
     "positions": [
       {
         "id": "0c060a3992",
@@ -224,16 +224,6 @@
         "sl": null,
         "tp": null,
         "open_time": "2026-07-27T23:33:12.792140+00:00"
-      },
-      {
-        "id": "9632bddae8",
-        "symbol": "XAUUSD",
-        "side": "sell",
-        "volume": 0.01,
-        "entry_price": 4072.75476,
-        "sl": null,
-        "tp": null,
-        "open_time": "2026-07-27T23:33:13.195136+00:00"
       },
       {
         "id": "64d1df99f4",
@@ -715,12 +705,13 @@
       "risk_reward": null,
       "expected_profit": null,
       "expected_loss": null,
-      "actual_pnl": null,
+      "actual_pnl": 0.04,
       "confidence": null,
       "reason": "",
       "source": "manual",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-07-27T23:40:19.485608+00:00"
     },
     {
       "id": "64d1df99f4",
