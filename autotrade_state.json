@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "hello"
-    },
-    {
-      "role": "model",
-      "text": "Hello! How can I assist you today?"
-    },
-    {
-      "role": "user",
       "text": "How many runs have you done"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "{\"reply\": \"Here are the results of the trades that were winners:\n\n1. **ETHUSD BUY**:\n   - **Entry**: 1,946.21\n   - **Stop Loss**: 1,935.00\n   - **Take Profit**: 1,965.00\n   - **Result**: Closed in profit of $2.11\n   - **Confidence**: 78%\n   - **Rationale**: ETHUSD swept local sell-side liquidity into a key demand zone and printed a strong 15-minute bullish reversal candle.\n\n2. **BTCUSD BUY**:\n   - **Entry**: 65,225.67\n   - **Stop Loss**: 65,050.00\n   - **Take Profit**: 65,650.00\n   - **Result**: Closed in profit of $176.76\n   - **Confidence**: 75%\n   - **Rationale**: Bullish higher timeframe continuation following a 15-minute sell-side liquidity sweep down at 65,100 with strong rejection displacement back up.\n\nThese two trades were the winners for the day. The Auto-Trader's strategy and analysis of market conditions helped to identify these profitable opportunities. If you have any questions or would like more information, feel free to ask!\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
+    },
+    {
+      "role": "user",
+      "text": "whts the totale number of trades yu placed today and the wins and the loss and ovwerl pnl"
+    },
+    {
+      "role": "model",
+      "text": "{\"reply\": \"Here's a summary of today's trading activity:\n\n**Total Trades:** 5\n\n**Wins:** 3\n\n* **ETHUSD BUY**: $2.11 profit\n* **BTCUSD BUY**: $176.76 profit\n* **BTCUSD BUY (earlier trade)**: $564.36 profit (not shown in the recent trades list, but part of the day's activity)\n\n**Losses:** 2\n\n* **XAUUSD BUY**: -$352.80 loss\n* **XAUUSD BUY (later trade)**: -$165.92 loss\n\n**Overall P/L:** $224.45 profit\n\nThe Auto-Trader's strategy and risk management helped to limit losses and capitalize on profitable opportunities, resulting in a positive overall P/L for the day. If you have any questions or would like more information, feel free to ask!\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
     }
   ],
   "sim_account": {
