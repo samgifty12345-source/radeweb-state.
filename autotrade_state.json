@@ -174,7 +174,18 @@
   ],
   "sim_account": {
     "balance": 4826.237115000009,
-    "positions": []
+    "positions": [
+      {
+        "id": "bd14b6fcdd",
+        "symbol": "XAUUSD",
+        "side": "buy",
+        "volume": 0.23,
+        "entry_price": 4082.08982,
+        "sl": 4069.0,
+        "tp": 4102.0,
+        "open_time": "2026-07-27T20:08:38.961974+00:00"
+      }
+    ]
   },
   "trade_log": [
     {
@@ -396,6 +407,25 @@
       "account": "demo",
       "status": "closed",
       "closed_time": "2026-07-27T13:10:58.062137+00:00"
+    },
+    {
+      "id": "bd14b6fcdd",
+      "time": "2026-07-27T20:08:38.962011+00:00",
+      "symbol": "XAUUSD",
+      "side": "buy",
+      "volume": 0.23,
+      "entry": 4082.08982,
+      "sl": 4069.0,
+      "tp": 4102.0,
+      "risk_reward": 1.52,
+      "expected_profit": 457.93,
+      "expected_loss": -301.07,
+      "actual_pnl": null,
+      "confidence": 75,
+      "reason": "XAUUSD swept sell-side liquidity at 4064.74, created a 15m CHoCH to 4094.61, and retested the demand zone with higher lows.",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
     }
   ]
 }
