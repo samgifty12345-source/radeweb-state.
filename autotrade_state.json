@@ -174,7 +174,18 @@
   ],
   "sim_account": {
     "balance": 5002.278645,
-    "positions": []
+    "positions": [
+      {
+        "id": "5977bc11a1",
+        "symbol": "BTCUSD",
+        "side": "buy",
+        "volume": 1.33,
+        "entry_price": 65225.67,
+        "sl": 65050.0,
+        "tp": 65650.0,
+        "open_time": "2026-07-27T09:31:00.381960+00:00"
+      }
+    ]
   },
   "trade_log": [
     {
@@ -356,6 +367,25 @@
       "account": "demo",
       "status": "closed",
       "closed_time": "2026-07-27T09:27:09.257432+00:00"
+    },
+    {
+      "id": "5977bc11a1",
+      "time": "2026-07-27T09:31:00.381998+00:00",
+      "symbol": "BTCUSD",
+      "side": "buy",
+      "volume": 1.33,
+      "entry": 65225.67,
+      "sl": 65050.0,
+      "tp": 65650.0,
+      "risk_reward": 2.42,
+      "expected_profit": 564.36,
+      "expected_loss": -233.64,
+      "actual_pnl": null,
+      "confidence": 75,
+      "reason": "Bullish HTF continuation following a 15m sell-side liquidity sweep at 65100 and strong rejection response.",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
     }
   ]
 }
