@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "im asking a qusetion here do you also know hw to clso trades ?"
-    },
-    {
-      "role": "model",
-      "text": "Yes, I do know how to close trades. If you have any open positions that you would like to close, please tell me which symbol and position you want to close, or if you want to close all open positions."
-    },
-    {
-      "role": "user",
       "text": "hello"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "{\"reply\": \"Yes, exactly! We currently have an active **BUY signal on BTCUSD** with **75% confidence**, and the Auto-Trader has already executed the trade based on that signal.\n\nHere are the details of the active BTCUSD trade:\n- **Action:** BUY\n- **Entry Price:** 65,225.67\n- **Lot Size:** 1.33 lots\n- **Stop Loss:** 65,050.00 (Risk: ~$233.64)\n- **Take Profit:** 65,650.00 (Target Profit: ~$564.36)\n- **Risk/Reward Ratio:** 1 : 2.42\n- **Setup Rationale:** Bullish higher timeframe continuation following a 15-minute sell-side liquidity sweep down at 65,100 with strong rejection displacement back up.\n\nIt's currently running live in the positions list!\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
+    },
+    {
+      "role": "user",
+      "text": "whats the balance ?"
+    },
+    {
+      "role": "model",
+      "text": "I'm currently unable to fetch the live account balance from the system feed right now. Please check the top header or main account summary bar on your dashboard for the real-time balance and equity figures!"
     }
   ],
   "sim_account": {
