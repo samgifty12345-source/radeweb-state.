@@ -173,19 +173,8 @@
     }
   ],
   "sim_account": {
-    "balance": 5000.169645,
-    "positions": [
-      {
-        "id": "6c44378b71",
-        "symbol": "ETHUSD",
-        "side": "buy",
-        "volume": 0.15,
-        "entry_price": 1946.21,
-        "sl": 1935.0,
-        "tp": 1965.0,
-        "open_time": "2026-07-27T01:09:50.405846+00:00"
-      }
-    ]
+    "balance": 5002.278645,
+    "positions": []
   },
   "trade_log": [
     {
@@ -360,12 +349,13 @@
       "risk_reward": 1.68,
       "expected_profit": 2.82,
       "expected_loss": -1.68,
-      "actual_pnl": null,
+      "actual_pnl": 2.11,
       "confidence": 78,
       "reason": "ETHUSD swept local sell-side liquidity into a key demand zone and printed a strong 15m bullish reversal candle.",
       "source": "autotrade-sim",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-07-27T09:27:09.257432+00:00"
     }
   ]
 }
