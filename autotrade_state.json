@@ -184,6 +184,16 @@
         "sl": 4022.27806,
         "tp": 4048.08274,
         "open_time": "2026-07-28T14:33:13.859282+00:00"
+      },
+      {
+        "id": "0575d4e6ee",
+        "symbol": "USDJPY",
+        "side": "buy",
+        "volume": 0.12,
+        "entry_price": 163.6659,
+        "sl": 163.84276,
+        "tp": 164.0,
+        "open_time": "2026-07-28T16:23:34.429528+00:00"
       }
     ]
   },
@@ -343,6 +353,25 @@
       "actual_pnl": null,
       "confidence": 80,
       "reason": "BOS and FVG setup in XAUUSD",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
+    },
+    {
+      "id": "0575d4e6ee",
+      "time": "2026-07-28T16:23:34.429544+00:00",
+      "symbol": "USDJPY",
+      "side": "buy",
+      "volume": 0.12,
+      "entry": 163.6659,
+      "sl": 163.84276,
+      "tp": 164.0,
+      "risk_reward": 1.89,
+      "expected_profit": 0.4,
+      "expected_loss": 0.21,
+      "actual_pnl": null,
+      "confidence": 90,
+      "reason": "USDJPY has a clear BOS, FVG, and engulfing pattern, making it a strong buy opportunity.",
       "source": "autotrade-sim",
       "account": "demo",
       "status": "open"
