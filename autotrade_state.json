@@ -173,19 +173,8 @@
     }
   ],
   "sim_account": {
-    "balance": 5000.0,
-    "positions": [
-      {
-        "id": "5025f9efa4",
-        "symbol": "BTCUSD",
-        "side": "buy",
-        "volume": 0.28,
-        "entry_price": 63610.01,
-        "sl": 64700.0,
-        "tp": 65500.0,
-        "open_time": "2026-07-28T00:46:13.602678+00:00"
-      }
-    ]
+    "balance": 4873.9384,
+    "positions": []
   },
   "trade_log": [
     {
@@ -700,12 +689,13 @@
       "risk_reward": 1.73,
       "expected_profit": 529.2,
       "expected_loss": 305.2,
-      "actual_pnl": null,
+      "actual_pnl": -126.06,
       "confidence": 80,
       "reason": "BOS, CHoCH, FVG in 15min timeframe",
       "source": "autotrade-sim",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-07-28T01:08:41.979550+00:00"
     }
   ]
 }
