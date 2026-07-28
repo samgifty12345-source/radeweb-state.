@@ -174,7 +174,18 @@
   ],
   "sim_account": {
     "balance": 4999.981632,
-    "positions": []
+    "positions": [
+      {
+        "id": "7aea888db5",
+        "symbol": "ETHUSD",
+        "side": "buy",
+        "volume": 0.23,
+        "entry_price": 1877.07,
+        "sl": 1870.0,
+        "tp": 1905.0,
+        "open_time": "2026-07-28T11:57:09.458162+00:00"
+      }
+    ]
   },
   "trade_log": [
     {
@@ -216,6 +227,25 @@
       "account": "demo",
       "status": "closed",
       "closed_time": "2026-07-28T11:54:37.474781+00:00"
+    },
+    {
+      "id": "7aea888db5",
+      "time": "2026-07-28T11:57:09.458180+00:00",
+      "symbol": "ETHUSD",
+      "side": "buy",
+      "volume": 0.23,
+      "entry": 1877.07,
+      "sl": 1870.0,
+      "tp": 1905.0,
+      "risk_reward": 3.95,
+      "expected_profit": 6.42,
+      "expected_loss": -1.63,
+      "actual_pnl": null,
+      "confidence": 90,
+      "reason": "strong bullish engulfing 15min, 1h RSI low",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
     }
   ]
 }
