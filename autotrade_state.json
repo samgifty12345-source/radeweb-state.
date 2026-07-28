@@ -173,7 +173,7 @@
     }
   ],
   "sim_account": {
-    "balance": 4942.840367999999,
+    "balance": 4942.8784319999995,
     "positions": [
       {
         "id": "1c0b596278",
@@ -184,16 +184,6 @@
         "sl": 4022.27806,
         "tp": 4048.08274,
         "open_time": "2026-07-28T14:33:13.859282+00:00"
-      },
-      {
-        "id": "0575d4e6ee",
-        "symbol": "USDJPY",
-        "side": "buy",
-        "volume": 0.12,
-        "entry_price": 163.6659,
-        "sl": 163.84276,
-        "tp": 164.0,
-        "open_time": "2026-07-28T16:23:34.429528+00:00"
       }
     ]
   },
@@ -369,12 +359,13 @@
       "risk_reward": 1.89,
       "expected_profit": 0.4,
       "expected_loss": 0.21,
-      "actual_pnl": null,
+      "actual_pnl": 0.04,
       "confidence": 90,
       "reason": "USDJPY has a clear BOS, FVG, and engulfing pattern, making it a strong buy opportunity.",
       "source": "autotrade-sim",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-07-28T16:38:38.185920+00:00"
     }
   ]
 }
