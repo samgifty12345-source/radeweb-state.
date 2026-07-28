@@ -184,6 +184,16 @@
         "sl": 63200.0,
         "tp": 63500.0,
         "open_time": "2026-07-28T04:23:08.773882+00:00"
+      },
+      {
+        "id": "e5f7666024",
+        "symbol": "USDJPY",
+        "side": "sell",
+        "volume": 0.17,
+        "entry_price": 163.74307,
+        "sl": null,
+        "tp": null,
+        "open_time": "2026-07-28T07:17:01.875068+00:00"
       }
     ]
   },
@@ -746,6 +756,25 @@
       "account": "demo",
       "status": "closed",
       "closed_time": "2026-07-28T07:14:39.797192+00:00"
+    },
+    {
+      "id": "e5f7666024",
+      "time": "2026-07-28T07:17:01.875080+00:00",
+      "symbol": "USDJPY",
+      "side": "sell",
+      "volume": 0.17,
+      "entry": 163.74307,
+      "sl": null,
+      "tp": null,
+      "risk_reward": null,
+      "expected_profit": null,
+      "expected_loss": null,
+      "actual_pnl": null,
+      "confidence": 80,
+      "reason": "BOS and FVG in 15min timeframe",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
     }
   ]
 }
