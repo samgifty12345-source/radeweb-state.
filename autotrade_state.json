@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "hi"
-    },
-    {
-      "role": "model",
-      "text": "Hello again! Is there something specific you'd like to discuss or any questions about the markets or your trades?"
-    },
-    {
-      "role": "user",
       "text": "whats yiur take on this curent trade"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "I'm DeepSeek, the trading assistant embedded in the Icon's trading dashboard. I'm here to help you with your trading questions, provide market analysis, and assist with your trading decisions. I'm a part of the Auto-Trader's system, working alongside the Grok AI to help you make informed trading decisions."
+    },
+    {
+      "role": "user",
+      "text": "who ?"
+    },
+    {
+      "role": "model",
+      "text": "I'm DeepSeek, the trading assistant embedded in the Icon's trading dashboard. I'm here to help you with your trading questions, provide market analysis, and assist with your trading decisions."
     }
   ],
   "sim_account": {
