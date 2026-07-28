@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "whats where the ccnficendc rates"
-    },
-    {
-      "role": "model",
-      "text": "{\"reply\": \"Here are the confidence scores for every pair from the latest scan cycle:\n\n- **EURUSD:** **75%** (BUY) \u2014 *Triggered the trade!* (Liquidity sweep below 1.1365 followed by bullish CHoCH)\n- **ETHUSD:** **62%** (Hold) \u2014 Strong uptrend, but currently overbought and extended\n- **GBPUSD:** **60%** (Hold) \u2014 Liquidity sweep at 1.3316, but weak follow-through\n- **BTCUSD:** **50%** (Hold) \u2014 Consolidating near 64,700 after liquidity sweep at 64,940\n- **XAUUSD (Gold):** **35%** (Hold) \u2014 Tight consolidation with no clear ICT displacement\n- **USDJPY:** **35%** (Hold) \u2014 Ranging market with double wicks and chop\n\nRemember, the auto-trader requires a score of **70+ confidence** to fire a trade, which is why only EURUSD triggered.\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
-    },
-    {
-      "role": "user",
       "text": "what did u get"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "I'm DeepSeek, the trading assistant embedded in the Icon's trading dashboard. I'm here to help you with your trading questions, provide market analysis, and assist with your trading decisions."
+    },
+    {
+      "role": "user",
+      "text": "What\u2019s the deco one and your confided rs tree"
+    },
+    {
+      "role": "model",
+      "text": "It seems like you're referring to the confidence score and the decision tree used by the Auto-Trader.\n\nThe confidence score is a measure of how confident the Auto-Trader is in its trading decisions. It's a percentage value between 0 and 100, where 100% means the Auto-Trader is extremely confident in its decision.\n\nAs for the decision tree, it's a complex algorithm used by the Auto-Trader to analyze market data and make trading decisions. The decision tree is based on a set of rules and conditions that are applied to the market data to determine the best course of action.\n\nHowever, I don't have any information about a \"deco one\" in relation to the Auto-Trader's decision tree or confidence score. Could you please provide more context or clarify what you mean by \"deco one\"?"
     }
   ],
   "sim_account": {
