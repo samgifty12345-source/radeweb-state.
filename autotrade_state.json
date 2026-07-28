@@ -173,18 +173,8 @@
     }
   ],
   "sim_account": {
-    "balance": 4933.0205479999995,
+    "balance": 4943.043948,
     "positions": [
-      {
-        "id": "7aea888db5",
-        "symbol": "ETHUSD",
-        "side": "buy",
-        "volume": 0.23,
-        "entry_price": 1877.07,
-        "sl": 1870.0,
-        "tp": 1905.0,
-        "open_time": "2026-07-28T11:57:09.458162+00:00"
-      },
       {
         "id": "4259e14a0b",
         "symbol": "USDJPY",
@@ -260,12 +250,13 @@
       "risk_reward": 3.95,
       "expected_profit": 6.42,
       "expected_loss": -1.63,
-      "actual_pnl": null,
+      "actual_pnl": 10.02,
       "confidence": 90,
       "reason": "strong bullish engulfing 15min, 1h RSI low",
       "source": "autotrade-sim",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-07-28T15:48:19.793218+00:00"
     },
     {
       "id": "a9720bf901",
