@@ -184,6 +184,16 @@
         "sl": 4022.27806,
         "tp": 4048.08274,
         "open_time": "2026-07-28T14:33:13.859282+00:00"
+      },
+      {
+        "id": "bcc1c2b242",
+        "symbol": "BTCUSD",
+        "side": "sell",
+        "volume": 0.23,
+        "entry_price": 64024.01,
+        "sl": 63300.0,
+        "tp": 64000.0,
+        "open_time": "2026-07-28T16:57:50.368313+00:00"
       }
     ]
   },
@@ -366,6 +376,25 @@
       "account": "demo",
       "status": "closed",
       "closed_time": "2026-07-28T16:38:38.185920+00:00"
+    },
+    {
+      "id": "bcc1c2b242",
+      "time": "2026-07-28T16:57:50.368330+00:00",
+      "symbol": "BTCUSD",
+      "side": "sell",
+      "volume": 0.23,
+      "entry": 64024.01,
+      "sl": 63300.0,
+      "tp": 64000.0,
+      "risk_reward": 0.03,
+      "expected_profit": 5.52,
+      "expected_loss": 166.52,
+      "actual_pnl": null,
+      "confidence": 90,
+      "reason": "BOS and engulfing pattern setup",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
     }
   ]
 }
