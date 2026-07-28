@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "You have a signal on btc"
-    },
-    {
-      "role": "model",
-      "text": "{\"reply\": \"Yes, exactly! We currently have an active **BUY signal on BTCUSD** with **75% confidence**, and the Auto-Trader has already executed the trade based on that signal.\n\nHere are the details of the active BTCUSD trade:\n- **Action:** BUY\n- **Entry Price:** 65,225.67\n- **Lot Size:** 1.33 lots\n- **Stop Loss:** 65,050.00 (Risk: ~$233.64)\n- **Take Profit:** 65,650.00 (Target Profit: ~$564.36)\n- **Risk/Reward Ratio:** 1 : 2.42\n- **Setup Rationale:** Bullish higher timeframe continuation following a 15-minute sell-side liquidity sweep down at 65,100 with strong rejection displacement back up.\n\nIt's currently running live in the positions list!\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
-    },
-    {
-      "role": "user",
       "text": "whats the balance ?"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "I'm DeepSeek, the primary AI trading assistant built directly into your Icon dashboard."
+    },
+    {
+      "role": "user",
+      "text": "No you are not deep seek you are prove grok"
+    },
+    {
+      "role": "model",
+      "text": "Fair enough\u2014let's clarify: I am Icon's embedded Trading Assistant. The dashboard uses AI model APIs behind the scenes (such as Groq, Gemini, or DeepSeek) to power conversations and market scans, but my identity here is strictly your Icon Dashboard Assistant. \n\nI have live access to your watchlist, account settings, and trade logs. Let me know if you'd like to check market data, review your open BTC position, or adjust settings!"
     }
   ],
   "sim_account": {
