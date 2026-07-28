@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "do agree with itt ?"
-    },
-    {
-      "role": "model",
-      "text": "As a trading assistant, I can provide analysis and insights, but I don't have personal opinions or biases. However, I can tell you that the auto-trader's decision to initiate the EURUSD buy trade is based on its algorithmic analysis of the market conditions and technical indicators. The 75% confidence level suggests that the auto-trader has identified a relatively strong trading opportunity. That being said, it's always important to consider multiple perspectives and stay vigilant, as market conditions can change rapidly."
-    },
-    {
-      "role": "user",
       "text": "whats your openioun on the trsde"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "Hello! It looks like we were in the middle of a conversation about the Auto-Trader and the issues it was experiencing with the Gemini and Groq APIs. Would you like to pick up where we left off or start fresh? I'm here to help with any trading-related questions or concerns you may have."
+    },
+    {
+      "role": "user",
+      "text": "hi"
+    },
+    {
+      "role": "model",
+      "text": "Hello! It seems like we're starting from a blank slate. How can I assist you today? Would you like to discuss the current market conditions, review the recent trades, or explore a specific trading strategy?"
     }
   ],
   "sim_account": {
