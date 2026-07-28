@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "whats your openioun on the trsde"
-    },
-    {
-      "role": "model",
-      "text": "{\"reply\": \"Strictly looking at the ICT / market structure setup, I actually rate this trade setup very favorably for a few key reasons:\n\n1. **Clean Liquidity Sweep & Displacement:** Sweeping the 1.1365 sell-side liquidity level before displacing upward to form a Change of Character (CHoCH) on the 1h timeframe is a textbook ICT bullish setup. It indicates smart money engineered liquidity below equal/swing lows before accumulating buy orders.\n2. **Asymmetric Risk/Reward (1:4.68):** Risking only ~11.8 pips (SL at 1.1363) to target 55.2 pips (TP at 1.1430) gives you great mathematical expectancy. Even with a sub-50% win rate over time, trades with this R:R profile keep the equity curve moving up.\n3. **Invalidation point is precise:** Placing the stop loss at 1.1363 right below the sweep low gives a clear line in the sand\u2014if price drops below 1.1363, the bullish narrative is completely invalidated and the trade exits with minimal draw.\n\n**Watchouts:** Ensure there isn't major high-impact news incoming that could cause sudden spread expansion. Otherwise, from a pure price action standpoint, letting this trade play out to either SL or TP is a solid disciplined approach.\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
-    },
-    {
-      "role": "user",
       "text": "whats where the ccnficendc rates"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "Hello! It seems like we're starting from a blank slate. How can I assist you today? Would you like to discuss the current market conditions, review the recent trades, or explore a specific trading strategy?"
+    },
+    {
+      "role": "user",
+      "text": "Who is this ?"
+    },
+    {
+      "role": "model",
+      "text": "I'm DeepSeek, the trading assistant embedded in the Icon's trading dashboard. I'm here to help you with your trading questions, provide market analysis, and assist with your trading decisions."
     }
   ],
   "sim_account": {
