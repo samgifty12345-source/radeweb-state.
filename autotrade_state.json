@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "hello"
-    },
-    {
-      "role": "model",
-      "text": "Hello! How can I help you today?"
-    },
-    {
-      "role": "user",
       "text": "hi"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "The AI we are using is called Grok, which is a language model designed to understand and generate human-like text. It's a part of the Auto-Trader's system, helping to analyze market data and make trading decisions. However, as we've seen, the Grok API is currently experiencing some issues with rate limiting and quota exceeded errors. If you'd like, I can try to provide more information about the Grok AI or help with anything else."
+    },
+    {
+      "role": "user",
+      "text": "who is this be ahoubesr"
+    },
+    {
+      "role": "model",
+      "text": "I'm DeepSeek, the trading assistant embedded in the Icon's trading dashboard. I'm here to help you with your trading questions, provide market analysis, and assist with your trading decisions. I'm a part of the Auto-Trader's system, working alongside the Grok AI to help you make informed trading decisions."
     }
   ],
   "sim_account": {
