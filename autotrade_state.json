@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "whats yiur take on this curent trade"
-    },
-    {
-      "role": "model",
-      "text": "The current open trade is a BUY position on EURUSD with 0.13 lots at 1.13748. The auto-trader initiated this trade due to a bullish CHoCH on the 1h timeframe following a 15m liquidity sweep below 1.1365 with strong upward displacement. The trade has a stop loss at 1.1363 and a take profit at 1.143, with an expected profit/loss ratio of 1:4.68 and 75% confidence. Given the current market conditions and the trade's parameters, it seems like the trade is positioned to capitalize on a potential upward move in EURUSD. However, it's essential to continue monitoring the trade's performance and adjust as needed."
-    },
-    {
-      "role": "user",
       "text": "do agree with itt ?"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "I'm DeepSeek, the trading assistant embedded in the Icon's trading dashboard. I'm here to help you with your trading questions, provide market analysis, and assist with your trading decisions."
+    },
+    {
+      "role": "user",
+      "text": "hi"
+    },
+    {
+      "role": "model",
+      "text": "Hello! It looks like we were in the middle of a conversation about the Auto-Trader and the issues it was experiencing with the Gemini and Groq APIs. Would you like to pick up where we left off or start fresh? I'm here to help with any trading-related questions or concerns you may have."
     }
   ],
   "sim_account": {
