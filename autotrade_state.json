@@ -173,19 +173,8 @@
     }
   ],
   "sim_account": {
-    "balance": 5000.0,
-    "positions": [
-      {
-        "id": "98637289f8",
-        "symbol": "USDJPY",
-        "side": "sell",
-        "volume": 0.08,
-        "entry_price": 163.91825,
-        "sl": 163.75,
-        "tp": 163.5,
-        "open_time": "2026-07-28T11:39:35.156868+00:00"
-      }
-    ]
+    "balance": 4999.981632,
+    "positions": []
   },
   "trade_log": [
     {
@@ -220,12 +209,13 @@
       "risk_reward": 2.49,
       "expected_profit": 0.33,
       "expected_loss": 0.13,
-      "actual_pnl": null,
+      "actual_pnl": -0.02,
       "confidence": 80,
       "reason": "USDJPY has a clear BOS and FVG setup in the 15min timeframe",
       "source": "autotrade-sim",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-07-28T11:54:37.474781+00:00"
     }
   ]
 }
