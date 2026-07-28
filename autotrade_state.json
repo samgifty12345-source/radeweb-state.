@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "well"
-    },
-    {
-      "role": "model",
-      "text": "Is there anything specific you'd like to check or execute? I can update your manual settings, check trade history, or place and close trades whenever you give the command."
-    },
-    {
-      "role": "user",
       "text": "what happend"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "Hello! How can I assist you today? Would you like to discuss the current market conditions, review the recent trades, or explore a specific trading strategy?"
+    },
+    {
+      "role": "user",
+      "text": "what heppned"
+    },
+    {
+      "role": "model",
+      "text": "{\"reply\": \"It seems like there was an issue with the Auto-Trader's connection to the exchange. The last update I have is that the Auto-Trader was unable to fetch the account balance and was experiencing errors with the Gemini and Groq APIs.\n\nHere's the error message:\n**Gemini error:** 429 - You exceeded your current quota, please check your plan and billing details.\n**Groq error:** Request too large for model `llama-3.3-70b-versatile` in organization `org_01kv39gtv9fvf9shxtvahnb0cq` service tier `on_demand` on tokens per minute (TPM): Limit 1200\n\nI'm not sure what caused the issue, but it's possible that it was a temporary glitch or a problem with the exchange's API. If you'd like, I can try to help you investigate further or provide more information on the recent trades.\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
     }
   ],
   "sim_account": {
