@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "You have a signal on good"
-    },
-    {
-      "role": "model",
-      "text": "{\"reply\": \"Actually, Gold (XAUUSD) does **not** have an active buy/sell signal right now \u2014 it is currently rated at **50% confidence (Hold)** because price is consolidating around 4091.60 following a spike.\n\nThe pair that currently triggered a high-confidence signal is **BTCUSD** (75% confidence \u2014 Buy), which executed a buy trade following a liquidity sweep at 65,100 with strong bullish rejection.\n\nFor Gold, our strategy is waiting for a clearer setup (a 70%+ confidence score) before generating an entry signal. Would you like me to notify you when a Gold signal fires, or do you still want to place a manual trade on Gold?\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
-    },
-    {
-      "role": "user",
       "text": "You have a signal on btc"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "Straight talk: I'm the primary AI trading assistant built directly into your Icon dashboard. \n\nIn the background, the dashboard system uses AI models like Gemini (for main conversation/scans) and DeepSeek (for secondary confirmation scans). The previous mixed-up answers came from system prompt logs referencing those background APIs. \n\nBottom line: I'm your Icon Dashboard Assistant, here to handle your trades, settings, and watchlist scans."
+    },
+    {
+      "role": "user",
+      "text": "So which one is this oh my good"
+    },
+    {
+      "role": "model",
+      "text": "I'm DeepSeek, the primary AI trading assistant built directly into your Icon dashboard."
     }
   ],
   "sim_account": {
