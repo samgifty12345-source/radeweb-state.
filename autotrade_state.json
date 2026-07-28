@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "i want to talk to deep seek"
-    },
-    {
-      "role": "model",
-      "text": "I am the primary trading assistant built into the Icon dashboard, but I can relay DeepSeek's independent second opinion on market scans when it is enabled. Currently, there is no DeepSeek review available yet (either the DEEPSEEK_API_KEY needs to be set in your environment, or we are waiting for the next scan cycle). In the meantime, I can help you analyze the market, check trade setups, or manage your positions directly!"
-    },
-    {
-      "role": "user",
       "text": "hello"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "You were checking on the status of the Auto-Trader and the issues it was experiencing with the Gemini and Groq APIs. We were discussing the error messages and trying to find a solution to get the Auto-Trader back online. Would you like to continue troubleshooting or move on to something else?"
+    },
+    {
+      "role": "user",
+      "text": "whuch ai s this"
+    },
+    {
+      "role": "model",
+      "text": "The AI we are using is called Grok, which is a language model designed to understand and generate human-like text. It's a part of the Auto-Trader's system, helping to analyze market data and make trading decisions. However, as we've seen, the Grok API is currently experiencing some issues with rate limiting and quota exceeded errors. If you'd like, I can try to provide more information about the Grok AI or help with anything else."
     }
   ],
   "sim_account": {
