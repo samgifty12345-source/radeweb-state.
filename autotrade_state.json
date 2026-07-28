@@ -194,6 +194,16 @@
         "sl": 163.8,
         "tp": 164.2,
         "open_time": "2026-07-28T14:16:16.133230+00:00"
+      },
+      {
+        "id": "1c0b596278",
+        "symbol": "XAUUSD",
+        "side": "buy",
+        "volume": 0.08,
+        "entry_price": 4022.34709,
+        "sl": 4022.27806,
+        "tp": 4048.08274,
+        "open_time": "2026-07-28T14:33:13.859282+00:00"
       }
     ]
   },
@@ -332,6 +342,25 @@
       "actual_pnl": null,
       "confidence": 90,
       "reason": "BOS at 163.887, RSI oversold",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
+    },
+    {
+      "id": "1c0b596278",
+      "time": "2026-07-28T14:33:13.859295+00:00",
+      "symbol": "XAUUSD",
+      "side": "buy",
+      "volume": 0.08,
+      "entry": 4022.34709,
+      "sl": 4022.27806,
+      "tp": 4048.08274,
+      "risk_reward": 372.82,
+      "expected_profit": 205.89,
+      "expected_loss": -0.55,
+      "actual_pnl": null,
+      "confidence": 80,
+      "reason": "BOS and FVG setup in XAUUSD",
       "source": "autotrade-sim",
       "account": "demo",
       "status": "open"
