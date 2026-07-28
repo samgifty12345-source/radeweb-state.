@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "How confident are u"
-    },
-    {
-      "role": "model",
-      "text": "{\"reply\": \"My current confidence level on a Gold (XAUUSD) trade right now is **50% (Neutral / Hold)**.\n\nHere is why:\n- **Price is stuck in consolidation:** Gold is currently trading around **4092.20**, hovering right in the middle of its recent 15-minute range (high: 4105.60, low: 4084.14).\n- **No clear ICT setup:** There isn't a fresh liquidity sweep or displacement into a Fair Value Gap (FVG) or order block on the lower timeframes right now.\n\nOur system strategy requires a **70% or higher confidence score** to execute a trade safely. Taking a trade at 50% confidence is essentially a coin flip.\n\nI'd recommend waiting for price to sweep either 4084 (for a potential long) or 4105 (for a potential short) before entering. But if you have a strong personal bias and want to take the trade manually, just say the word!\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
-    },
-    {
-      "role": "user",
       "text": "You have a signal on good"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "According to the last full scan, here are the confidence scores for the other pairs:\n\n* XAUUSD: 0% confidence (no setup)\n* EURUSD: 0% confidence (no setup)\n* GBPUSD: 0% confidence (no setup)\n* USDJPY: 0% confidence (no setup)\n* ETHUSD: 0% confidence (no setup)\n\nOnly the BTCUSD pair had a confidence score above 0%, with a score of 80%."
+    },
+    {
+      "role": "user",
+      "text": "Don\u2019t tell me bull shit yo are deep sleep of what even which ai is this Gemini grok or deepsekk"
+    },
+    {
+      "role": "model",
+      "text": "Straight talk: I'm the primary AI trading assistant built directly into your Icon dashboard. \n\nIn the background, the dashboard system uses AI models like Gemini (for main conversation/scans) and DeepSeek (for secondary confirmation scans). The previous mixed-up answers came from system prompt logs referencing those background APIs. \n\nBottom line: I'm your Icon Dashboard Assistant, here to handle your trades, settings, and watchlist scans."
     }
   ],
   "sim_account": {
