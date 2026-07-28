@@ -174,7 +174,18 @@
   ],
   "sim_account": {
     "balance": 5032.147851999998,
-    "positions": []
+    "positions": [
+      {
+        "id": "26371b32f6",
+        "symbol": "BTCUSD",
+        "side": "sell",
+        "volume": 0.17,
+        "entry_price": 63667.31,
+        "sl": 62965.38,
+        "tp": 63754.28,
+        "open_time": "2026-07-28T17:50:42.270887+00:00"
+      }
+    ]
   },
   "trade_log": [
     {
@@ -416,6 +427,25 @@
       "account": "demo",
       "status": "closed",
       "closed_time": "2026-07-28T17:48:11.634502+00:00"
+    },
+    {
+      "id": "26371b32f6",
+      "time": "2026-07-28T17:50:42.270898+00:00",
+      "symbol": "BTCUSD",
+      "side": "sell",
+      "volume": 0.17,
+      "entry": 63667.31,
+      "sl": 62965.38,
+      "tp": 63754.28,
+      "risk_reward": 0.12,
+      "expected_profit": -14.78,
+      "expected_loss": 119.33,
+      "actual_pnl": null,
+      "confidence": 80,
+      "reason": "BOS and FVG setup in BTCUSD",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
     }
   ]
 }
