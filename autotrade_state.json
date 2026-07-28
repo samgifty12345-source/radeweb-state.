@@ -173,29 +173,8 @@
     }
   ],
   "sim_account": {
-    "balance": 4806.444575000002,
-    "positions": [
-      {
-        "id": "18fae76b6d",
-        "symbol": "BTCUSD",
-        "side": "buy",
-        "volume": 0.23,
-        "entry_price": 63317.5,
-        "sl": 63200.0,
-        "tp": 63500.0,
-        "open_time": "2026-07-28T04:23:08.773882+00:00"
-      },
-      {
-        "id": "f85f7a8a84",
-        "symbol": "USDJPY",
-        "side": "buy",
-        "volume": 0.17,
-        "entry_price": 163.76055,
-        "sl": 163.67,
-        "tp": 163.85,
-        "open_time": "2026-07-28T07:34:09.174238+00:00"
-      }
-    ]
+    "balance": 4851.313870000002,
+    "positions": []
   },
   "trade_log": []
 }
