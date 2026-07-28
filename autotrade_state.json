@@ -184,6 +184,16 @@
         "sl": 4022.27806,
         "tp": 4048.08274,
         "open_time": "2026-07-28T14:33:13.859282+00:00"
+      },
+      {
+        "id": "d55c913c12",
+        "symbol": "ETHUSD",
+        "side": "sell",
+        "volume": 0.23,
+        "entry_price": 1904.47,
+        "sl": 1904.47,
+        "tp": 1925.92,
+        "open_time": "2026-07-28T17:33:02.476377+00:00"
       }
     ]
   },
@@ -406,6 +416,25 @@
       "account": "demo",
       "status": "closed",
       "closed_time": "2026-07-28T17:31:19.761849+00:00"
+    },
+    {
+      "id": "d55c913c12",
+      "time": "2026-07-28T17:33:02.476389+00:00",
+      "symbol": "ETHUSD",
+      "side": "sell",
+      "volume": 0.23,
+      "entry": 1904.47,
+      "sl": 1904.47,
+      "tp": 1925.92,
+      "risk_reward": null,
+      "expected_profit": -4.93,
+      "expected_loss": -0.0,
+      "actual_pnl": null,
+      "confidence": 90,
+      "reason": "Best setup is a sell on ETHUSD with a high confidence score",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
     }
   ]
 }
