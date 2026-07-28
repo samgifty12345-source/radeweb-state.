@@ -13,14 +13,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "whats the balance ?"
-    },
-    {
-      "role": "model",
-      "text": "I'm currently unable to fetch the live account balance from the system feed right now. Please check the top header or main account summary bar on your dashboard for the real-time balance and equity figures!"
-    },
-    {
-      "role": "user",
       "text": "hats todays breake downbof te trades"
     },
     {
@@ -170,6 +162,14 @@
     {
       "role": "model",
       "text": "Fair enough\u2014let's clarify: I am Icon's embedded Trading Assistant. The dashboard uses AI model APIs behind the scenes (such as Groq, Gemini, or DeepSeek) to power conversations and market scans, but my identity here is strictly your Icon Dashboard Assistant. \n\nI have live access to your watchlist, account settings, and trade logs. Let me know if you'd like to check market data, review your open BTC position, or adjust settings!"
+    },
+    {
+      "role": "user",
+      "text": "Hi"
+    },
+    {
+      "role": "model",
+      "text": "Hello! Ready whenever you are. How can I help you with your trades, market analysis, or dashboard settings today?"
     }
   ],
   "sim_account": {
