@@ -173,19 +173,8 @@
     }
   ],
   "sim_account": {
-    "balance": 5031.0944519999985,
-    "positions": [
-      {
-        "id": "d55c913c12",
-        "symbol": "ETHUSD",
-        "side": "sell",
-        "volume": 0.23,
-        "entry_price": 1904.47,
-        "sl": 1904.47,
-        "tp": 1925.92,
-        "open_time": "2026-07-28T17:33:02.476377+00:00"
-      }
-    ]
+    "balance": 5032.147851999998,
+    "positions": []
   },
   "trade_log": [
     {
@@ -420,12 +409,13 @@
       "risk_reward": null,
       "expected_profit": -4.93,
       "expected_loss": -0.0,
-      "actual_pnl": null,
+      "actual_pnl": 1.05,
       "confidence": 90,
       "reason": "Best setup is a sell on ETHUSD with a high confidence score",
       "source": "autotrade-sim",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-07-28T17:48:11.634502+00:00"
     }
   ]
 }
