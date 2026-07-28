@@ -194,6 +194,16 @@
         "sl": 163.67,
         "tp": 163.85,
         "open_time": "2026-07-28T07:34:09.174238+00:00"
+      },
+      {
+        "id": "bc49359c37",
+        "symbol": "XAUUSD",
+        "side": "buy",
+        "volume": 0.17,
+        "entry_price": 4047.3788,
+        "sl": 4045.74874,
+        "tp": 4051.59582,
+        "open_time": "2026-07-28T07:52:05.059104+00:00"
       }
     ]
   },
@@ -792,6 +802,25 @@
       "actual_pnl": null,
       "confidence": 80,
       "reason": "BOS on 1h, RSI low",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
+    },
+    {
+      "id": "bc49359c37",
+      "time": "2026-07-28T07:52:05.059117+00:00",
+      "symbol": "XAUUSD",
+      "side": "buy",
+      "volume": 0.17,
+      "entry": 4047.3788,
+      "sl": 4045.74874,
+      "tp": 4051.59582,
+      "risk_reward": 2.59,
+      "expected_profit": 71.69,
+      "expected_loss": -27.71,
+      "actual_pnl": null,
+      "confidence": 80,
+      "reason": "BOS on 1h, CHoCH on 15min",
       "source": "autotrade-sim",
       "account": "demo",
       "status": "open"
