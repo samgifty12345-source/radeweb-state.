@@ -194,6 +194,16 @@
         "sl": 1862.25,
         "tp": 1874.04,
         "open_time": "2026-07-31T21:55:22.462001+00:00"
+      },
+      {
+        "id": "88cd161e34",
+        "symbol": "USDJPY",
+        "side": "buy",
+        "volume": 0.1,
+        "entry_price": 157.45103,
+        "sl": 157.46124,
+        "tp": 157.4995,
+        "open_time": "2026-07-31T22:41:33.277605+00:00"
       }
     ]
   },
@@ -332,6 +342,25 @@
       "actual_pnl": null,
       "confidence": 90,
       "reason": "BOS + FVG setup on ETHUSD",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
+    },
+    {
+      "id": "88cd161e34",
+      "time": "2026-07-31T22:41:33.277614+00:00",
+      "symbol": "USDJPY",
+      "side": "buy",
+      "volume": 0.1,
+      "entry": 157.45103,
+      "sl": 157.46124,
+      "tp": 157.4995,
+      "risk_reward": 4.75,
+      "expected_profit": 0.05,
+      "expected_loss": 0.01,
+      "actual_pnl": null,
+      "confidence": 85,
+      "reason": "BOS + FVG",
       "source": "autotrade-sim",
       "account": "demo",
       "status": "open"
