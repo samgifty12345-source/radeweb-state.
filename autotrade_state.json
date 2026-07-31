@@ -173,7 +173,7 @@
     }
   ],
   "sim_account": {
-    "balance": 5012.670395999999,
+    "balance": 5012.670465999999,
     "positions": [
       {
         "id": "dca96f3c8f",
@@ -186,14 +186,14 @@
         "open_time": "2026-07-31T16:35:01.823769+00:00"
       },
       {
-        "id": "88cd161e34",
+        "id": "9d5b042106",
         "symbol": "USDJPY",
         "side": "buy",
-        "volume": 0.1,
-        "entry_price": 157.45103,
-        "sl": 157.46124,
-        "tp": 157.4995,
-        "open_time": "2026-07-31T22:41:33.277605+00:00"
+        "volume": 0.08,
+        "entry_price": 157.49973,
+        "sl": 157.4376,
+        "tp": 159.34269,
+        "open_time": "2026-07-31T23:25:03.254586+00:00"
       }
     ]
   },
@@ -349,9 +349,29 @@
       "risk_reward": 4.75,
       "expected_profit": 0.05,
       "expected_loss": 0.01,
-      "actual_pnl": null,
+      "actual_pnl": 0.0,
       "confidence": 85,
       "reason": "BOS + FVG",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "closed",
+      "closed_time": "2026-07-31T23:01:42.701400+00:00"
+    },
+    {
+      "id": "9d5b042106",
+      "time": "2026-07-31T23:25:03.254596+00:00",
+      "symbol": "USDJPY",
+      "side": "buy",
+      "volume": 0.08,
+      "entry": 157.49973,
+      "sl": 157.4376,
+      "tp": 159.34269,
+      "risk_reward": 29.66,
+      "expected_profit": 1.47,
+      "expected_loss": -0.05,
+      "actual_pnl": null,
+      "confidence": 80,
+      "reason": "BOS + FVG in 1h timeframe",
       "source": "autotrade-sim",
       "account": "demo",
       "status": "open"
