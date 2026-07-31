@@ -173,7 +173,7 @@
     }
   ],
   "sim_account": {
-    "balance": 5012.700295999998,
+    "balance": 5012.670395999999,
     "positions": [
       {
         "id": "dca96f3c8f",
@@ -184,16 +184,6 @@
         "sl": 62854.18,
         "tp": 64421.68,
         "open_time": "2026-07-31T16:35:01.823769+00:00"
-      },
-      {
-        "id": "e3a42884ec",
-        "symbol": "ETHUSD",
-        "side": "buy",
-        "volume": 0.23,
-        "entry_price": 1862.3,
-        "sl": 1862.25,
-        "tp": 1874.04,
-        "open_time": "2026-07-31T21:55:22.462001+00:00"
       },
       {
         "id": "88cd161e34",
@@ -339,12 +329,13 @@
       "risk_reward": 234.8,
       "expected_profit": 2.7,
       "expected_loss": -0.01,
-      "actual_pnl": null,
+      "actual_pnl": -0.03,
       "confidence": 90,
       "reason": "BOS + FVG setup on ETHUSD",
       "source": "autotrade-sim",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-07-31T23:01:41.569390+00:00"
     },
     {
       "id": "88cd161e34",
