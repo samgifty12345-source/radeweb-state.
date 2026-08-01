@@ -194,6 +194,16 @@
         "sl": 4041.33735,
         "tp": 4055.12765,
         "open_time": "2026-08-01T00:10:21.520208+00:00"
+      },
+      {
+        "id": "6fcfe9334a",
+        "symbol": "BTCUSD",
+        "side": "buy",
+        "volume": 0.3,
+        "entry_price": 62909.99,
+        "sl": 62910.0,
+        "tp": 63126.25,
+        "open_time": "2026-08-01T16:59:04.957281+00:00"
       }
     ]
   },
@@ -392,6 +402,25 @@
       "actual_pnl": null,
       "confidence": 85,
       "reason": "BOS + FVG setup on XAUUSD",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
+    },
+    {
+      "id": "6fcfe9334a",
+      "time": "2026-08-01T16:59:04.957290+00:00",
+      "symbol": "BTCUSD",
+      "side": "buy",
+      "volume": 0.3,
+      "entry": 62909.99,
+      "sl": 62910.0,
+      "tp": 63126.25,
+      "risk_reward": 21626.0,
+      "expected_profit": 64.88,
+      "expected_loss": 0.0,
+      "actual_pnl": null,
+      "confidence": 100,
+      "reason": "BOS + FVG + RSI Oversold",
       "source": "autotrade-sim",
       "account": "demo",
       "status": "open"
