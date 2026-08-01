@@ -194,6 +194,16 @@
         "sl": 4041.33735,
         "tp": 4055.12765,
         "open_time": "2026-08-01T00:10:21.520208+00:00"
+      },
+      {
+        "id": "266124dffd",
+        "symbol": "ETHUSD",
+        "side": "buy",
+        "volume": 0.2,
+        "entry_price": 1835.58,
+        "sl": 1835.74,
+        "tp": 1840.48,
+        "open_time": "2026-08-01T20:32:35.254766+00:00"
       }
     ]
   },
@@ -455,6 +465,25 @@
       "account": "demo",
       "status": "closed",
       "closed_time": "2026-08-01T19:46:20.118787+00:00"
+    },
+    {
+      "id": "266124dffd",
+      "time": "2026-08-01T20:32:35.254775+00:00",
+      "symbol": "ETHUSD",
+      "side": "buy",
+      "volume": 0.2,
+      "entry": 1835.58,
+      "sl": 1835.74,
+      "tp": 1840.48,
+      "risk_reward": 30.62,
+      "expected_profit": 0.98,
+      "expected_loss": 0.03,
+      "actual_pnl": null,
+      "confidence": 85,
+      "reason": "BOS + FVG",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
     }
   ]
 }
