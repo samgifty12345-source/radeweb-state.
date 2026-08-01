@@ -194,6 +194,16 @@
         "sl": 157.4376,
         "tp": 159.34269,
         "open_time": "2026-07-31T23:25:03.254586+00:00"
+      },
+      {
+        "id": "6aefaee072",
+        "symbol": "XAUUSD",
+        "side": "buy",
+        "volume": 0.1,
+        "entry_price": 4042.73531,
+        "sl": 4041.33735,
+        "tp": 4055.12765,
+        "open_time": "2026-08-01T00:10:21.520208+00:00"
       }
     ]
   },
@@ -372,6 +382,25 @@
       "actual_pnl": null,
       "confidence": 80,
       "reason": "BOS + FVG in 1h timeframe",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
+    },
+    {
+      "id": "6aefaee072",
+      "time": "2026-08-01T00:10:21.520219+00:00",
+      "symbol": "XAUUSD",
+      "side": "buy",
+      "volume": 0.1,
+      "entry": 4042.73531,
+      "sl": 4041.33735,
+      "tp": 4055.12765,
+      "risk_reward": 8.86,
+      "expected_profit": 123.92,
+      "expected_loss": -13.98,
+      "actual_pnl": null,
+      "confidence": 85,
+      "reason": "BOS + FVG setup on XAUUSD",
       "source": "autotrade-sim",
       "account": "demo",
       "status": "open"
