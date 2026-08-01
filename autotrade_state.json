@@ -194,6 +194,16 @@
         "sl": 4041.33735,
         "tp": 4055.12765,
         "open_time": "2026-08-01T00:10:21.520208+00:00"
+      },
+      {
+        "id": "1bba8cd6a3",
+        "symbol": "BTCUSD",
+        "side": "sell",
+        "volume": 0.17,
+        "entry_price": 62852.26,
+        "sl": 62500.0,
+        "tp": 62000.0,
+        "open_time": "2026-08-01T22:16:20.057689+00:00"
       }
     ]
   },
@@ -475,6 +485,25 @@
       "account": "demo",
       "status": "closed",
       "closed_time": "2026-08-01T21:52:56.077957+00:00"
+    },
+    {
+      "id": "1bba8cd6a3",
+      "time": "2026-08-01T22:16:20.057698+00:00",
+      "symbol": "BTCUSD",
+      "side": "sell",
+      "volume": 0.17,
+      "entry": 62852.26,
+      "sl": 62500.0,
+      "tp": 62000.0,
+      "risk_reward": 2.42,
+      "expected_profit": 144.88,
+      "expected_loss": 59.88,
+      "actual_pnl": null,
+      "confidence": 80,
+      "reason": "BOS + FVG + RSI overbought",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
     }
   ]
 }
