@@ -194,6 +194,16 @@
         "sl": 1856.19,
         "tp": 1869.74,
         "open_time": "2026-08-02T13:09:12.285531+00:00"
+      },
+      {
+        "id": "cb57dc58a7",
+        "symbol": "USDJPY",
+        "side": "sell",
+        "volume": 0.12,
+        "entry_price": 157.87882,
+        "sl": 157.48919,
+        "tp": 157.74387,
+        "open_time": "2026-08-02T13:31:52.695912+00:00"
       }
     ]
   },
@@ -592,6 +602,25 @@
       "actual_pnl": null,
       "confidence": 90,
       "reason": "BOS + FVG + RSI oversold",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
+    },
+    {
+      "id": "cb57dc58a7",
+      "time": "2026-08-02T13:31:52.695922+00:00",
+      "symbol": "USDJPY",
+      "side": "sell",
+      "volume": 0.12,
+      "entry": 157.87882,
+      "sl": 157.48919,
+      "tp": 157.74387,
+      "risk_reward": 0.35,
+      "expected_profit": 0.16,
+      "expected_loss": 0.47,
+      "actual_pnl": null,
+      "confidence": 90,
+      "reason": "BOS + FVG",
       "source": "autotrade-sim",
       "account": "demo",
       "status": "open"
