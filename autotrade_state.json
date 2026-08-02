@@ -194,6 +194,16 @@
         "sl": 63100.0,
         "tp": 63600.0,
         "open_time": "2026-08-02T18:48:30.279131+00:00"
+      },
+      {
+        "id": "971d40a5bf",
+        "symbol": "ETHUSD",
+        "side": "buy",
+        "volume": 0.23,
+        "entry_price": 1855.14,
+        "sl": 1965.12,
+        "tp": 2005.12,
+        "open_time": "2026-08-02T21:28:34.639252+00:00"
       }
     ]
   },
@@ -711,6 +721,25 @@
       "expected_loss": -54.25,
       "actual_pnl": null,
       "confidence": 80,
+      "reason": "BOS + FVG + RSI Oversold",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
+    },
+    {
+      "id": "971d40a5bf",
+      "time": "2026-08-02T21:28:34.639269+00:00",
+      "symbol": "ETHUSD",
+      "side": "buy",
+      "volume": 0.23,
+      "entry": 1855.14,
+      "sl": 1965.12,
+      "tp": 2005.12,
+      "risk_reward": 1.36,
+      "expected_profit": 34.5,
+      "expected_loss": 25.3,
+      "actual_pnl": null,
+      "confidence": 90,
       "reason": "BOS + FVG + RSI Oversold",
       "source": "autotrade-sim",
       "account": "demo",
