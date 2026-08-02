@@ -173,7 +173,7 @@
     }
   ],
   "sim_account": {
-    "balance": 5069.338621999999,
+    "balance": 5069.338253999999,
     "positions": [
       {
         "id": "6aefaee072",
@@ -194,16 +194,6 @@
         "sl": 62900.0,
         "tp": 63400.0,
         "open_time": "2026-08-02T15:24:03.324330+00:00"
-      },
-      {
-        "id": "3a84e5946c",
-        "symbol": "GBPUSD",
-        "side": "buy",
-        "volume": 0.08,
-        "entry_price": 1.34777,
-        "sl": 1.3475,
-        "tp": 1.3486,
-        "open_time": "2026-08-02T17:42:27.465481+00:00"
       }
     ]
   },
@@ -698,12 +688,13 @@
       "risk_reward": 3.07,
       "expected_profit": 0.0,
       "expected_loss": -0.0,
-      "actual_pnl": null,
+      "actual_pnl": -0.0,
       "confidence": 80,
       "reason": "BOS + FVG setup",
       "source": "autotrade-sim",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-08-02T18:02:35.912145+00:00"
     }
   ]
 }
