@@ -194,6 +194,16 @@
         "sl": 62900.0,
         "tp": 63400.0,
         "open_time": "2026-08-02T15:24:03.324330+00:00"
+      },
+      {
+        "id": "3a84e5946c",
+        "symbol": "GBPUSD",
+        "side": "buy",
+        "volume": 0.08,
+        "entry_price": 1.34777,
+        "sl": 1.3475,
+        "tp": 1.3486,
+        "open_time": "2026-08-02T17:42:27.465481+00:00"
       }
     ]
   },
@@ -672,6 +682,25 @@
       "actual_pnl": null,
       "confidence": 80,
       "reason": "BOS + FVG + RSI Oversold",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
+    },
+    {
+      "id": "3a84e5946c",
+      "time": "2026-08-02T17:42:27.465491+00:00",
+      "symbol": "GBPUSD",
+      "side": "buy",
+      "volume": 0.08,
+      "entry": 1.34777,
+      "sl": 1.3475,
+      "tp": 1.3486,
+      "risk_reward": 3.07,
+      "expected_profit": 0.0,
+      "expected_loss": -0.0,
+      "actual_pnl": null,
+      "confidence": 80,
+      "reason": "BOS + FVG setup",
       "source": "autotrade-sim",
       "account": "demo",
       "status": "open"
