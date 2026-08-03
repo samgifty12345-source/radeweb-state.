@@ -174,7 +174,18 @@
   ],
   "sim_account": {
     "balance": 5394.983654,
-    "positions": []
+    "positions": [
+      {
+        "id": "5a529a9537",
+        "symbol": "BTCUSD",
+        "side": "buy",
+        "volume": 0.1,
+        "entry_price": 63912.18,
+        "sl": 30000.0,
+        "tp": 32000.0,
+        "open_time": "2026-08-03T23:06:01.665240+00:00"
+      }
+    ]
   },
   "trade_log": [
     {
@@ -1096,6 +1107,25 @@
       "account": "demo",
       "status": "closed",
       "closed_time": "2026-08-03T23:02:44.426154+00:00"
+    },
+    {
+      "id": "5a529a9537",
+      "time": "2026-08-03T23:06:01.665258+00:00",
+      "symbol": "BTCUSD",
+      "side": "buy",
+      "volume": 0.1,
+      "entry": 63912.18,
+      "sl": 30000.0,
+      "tp": 32000.0,
+      "risk_reward": 0.94,
+      "expected_profit": -3191.22,
+      "expected_loss": -3391.22,
+      "actual_pnl": null,
+      "confidence": 90,
+      "reason": "3-layer confluence: 1H BOS + 15m FVG + RSI oversold",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
     }
   ]
 }
