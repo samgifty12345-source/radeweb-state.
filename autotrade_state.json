@@ -174,7 +174,18 @@
   ],
   "sim_account": {
     "balance": 5230.471954000001,
-    "positions": []
+    "positions": [
+      {
+        "id": "192885d06f",
+        "symbol": "ETHUSD",
+        "side": "buy",
+        "volume": 0.23,
+        "entry_price": 1859.09,
+        "sl": 1857.22,
+        "tp": 1900.0,
+        "open_time": "2026-08-03T04:01:23.711068+00:00"
+      }
+    ]
   },
   "trade_log": [
     {
@@ -736,6 +747,25 @@
       "account": "demo",
       "status": "closed",
       "closed_time": "2026-08-03T01:18:14.091275+00:00"
+    },
+    {
+      "id": "192885d06f",
+      "time": "2026-08-03T04:01:23.711077+00:00",
+      "symbol": "ETHUSD",
+      "side": "buy",
+      "volume": 0.23,
+      "entry": 1859.09,
+      "sl": 1857.22,
+      "tp": 1900.0,
+      "risk_reward": 21.88,
+      "expected_profit": 9.41,
+      "expected_loss": -0.43,
+      "actual_pnl": null,
+      "confidence": 90,
+      "reason": "BOS + FVG + RSI oversold",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
     }
   ]
 }
