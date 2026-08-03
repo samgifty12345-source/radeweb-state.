@@ -173,18 +173,8 @@
     }
   ],
   "sim_account": {
-    "balance": 5132.998154,
+    "balance": 5288.424754000001,
     "positions": [
-      {
-        "id": "6aefaee072",
-        "symbol": "XAUUSD",
-        "side": "buy",
-        "volume": 0.1,
-        "entry_price": 4042.73531,
-        "sl": 4041.33735,
-        "tp": 4055.12765,
-        "open_time": "2026-08-01T00:10:21.520208+00:00"
-      },
       {
         "id": "5fa096e867",
         "symbol": "BTCUSD",
@@ -400,12 +390,13 @@
       "risk_reward": 8.86,
       "expected_profit": 123.92,
       "expected_loss": -13.98,
-      "actual_pnl": null,
+      "actual_pnl": 155.43,
       "confidence": 85,
       "reason": "BOS + FVG setup on XAUUSD",
       "source": "autotrade-sim",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-08-03T00:57:53.396492+00:00"
     },
     {
       "id": "6fcfe9334a",
