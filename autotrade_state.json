@@ -175,7 +175,18 @@
   ],
   "sim_account": {
     "balance": 5221.397099999997,
-    "positions": []
+    "positions": [
+      {
+        "id": "ef6f580a16",
+        "symbol": "XAUUSD",
+        "side": "buy",
+        "volume": 0.08,
+        "entry_price": 4073.73792,
+        "sl": 4072.17642,
+        "tp": 4093.62954,
+        "open_time": "2026-08-04T23:19:23.706044+00:00"
+      }
+    ]
   },
   "trade_log": [
     {
@@ -197,6 +208,25 @@
       "account": "demo",
       "status": "closed",
       "closed_time": "2026-08-04T21:58:38.007269+00:00"
+    },
+    {
+      "id": "ef6f580a16",
+      "time": "2026-08-04T23:19:23.706059+00:00",
+      "symbol": "XAUUSD",
+      "side": "buy",
+      "volume": 0.08,
+      "entry": 4073.73792,
+      "sl": 4072.17642,
+      "tp": 4093.62954,
+      "risk_reward": 12.74,
+      "expected_profit": 159.13,
+      "expected_loss": -12.49,
+      "actual_pnl": null,
+      "confidence": 80,
+      "reason": "BOS + FVG setup in XAUUSD",
+      "source": "autotrade-sim",
+      "account": "demo",
+      "status": "open"
     }
   ]
 }
