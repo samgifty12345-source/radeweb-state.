@@ -185,6 +185,16 @@
         "sl": 63361.99,
         "tp": 64000.0,
         "open_time": "2026-08-04T01:10:22.584149+00:00"
+      },
+      {
+        "id": "ce86348936",
+        "symbol": "ETHUSD",
+        "side": "buy",
+        "volume": 0.2,
+        "entry_price": 1866.02,
+        "sl": 1860.4,
+        "tp": 1874.08,
+        "open_time": "2026-08-04T01:42:39.176791+00:00"
       }
     ]
   },
@@ -1144,6 +1154,25 @@
       "actual_pnl": null,
       "confidence": 80,
       "reason": "BOS + FVG + RSI Oversold on BTCUSD",
+      "source": "autotrade-groq",
+      "account": "demo",
+      "status": "open"
+    },
+    {
+      "id": "ce86348936",
+      "time": "2026-08-04T01:42:39.176807+00:00",
+      "symbol": "ETHUSD",
+      "side": "buy",
+      "volume": 0.2,
+      "entry": 1866.02,
+      "sl": 1860.4,
+      "tp": 1874.08,
+      "risk_reward": 1.43,
+      "expected_profit": 1.61,
+      "expected_loss": -1.12,
+      "actual_pnl": null,
+      "confidence": 85,
+      "reason": "BOS + FVG + RSI Oversold",
       "source": "autotrade-groq",
       "account": "demo",
       "status": "open"
