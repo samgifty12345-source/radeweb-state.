@@ -14,14 +14,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "what heppned"
-    },
-    {
-      "role": "model",
-      "text": "{\"reply\": \"It seems like there was an issue with the Auto-Trader's connection to the exchange. The last update I have is that the Auto-Trader was unable to fetch the account balance and was experiencing errors with the Gemini and Groq APIs.\n\nHere's the error message:\n**Gemini error:** 429 - You exceeded your current quota, please check your plan and billing details.\n**Groq error:** Request too large for model `llama-3.3-70b-versatile` in organization `org_01kv39gtv9fvf9shxtvahnb0cq` service tier `on_demand` on tokens per minute (TPM): Limit 1200\n\nI'm not sure what caused the issue, but it's possible that it was a temporary glitch or a problem with the exchange's API. If you'd like, I can try to help you investigate further or provide more information on the recent trades.\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
-    },
-    {
-      "role": "user",
       "text": "now tsetinggrok"
     },
     {
@@ -171,6 +163,14 @@
     {
       "role": "model",
       "text": "I'm still here, and I'm good. It seems like you're asking about the recent trade on your demo account. According to the recent trades log, the Auto-Trader placed a buy trade on XAUUSD with a confidence score of 85%. Would you like me to check the actual trade details or the current market data for XAUUSD?"
+    },
+    {
+      "role": "user",
+      "text": "why did you plce that treade ?"
+    },
+    {
+      "role": "model",
+      "text": "The open BUY trade on XAUUSD (Gold) @ 4073.74 was placed automatically by the Auto-Trader because it detected a Break of Structure (BOS) combined with a Fair Value Gap (FVG) setup on the 15-minute timeframe. \n\nThis setup scored an 80% confidence rating (above the 70% requirement) with a tight stop loss at 4072.18 and a take profit target at 4093.63, offering an excellent risk-to-reward ratio of roughly 1:12.7."
     }
   ],
   "sim_account": {
