@@ -174,7 +174,7 @@
     }
   ],
   "sim_account": {
-    "balance": 5222.0670999999975,
+    "balance": 5221.397099999997,
     "positions": []
   },
   "trade_log": [
@@ -190,13 +190,13 @@
       "risk_reward": 0.52,
       "expected_profit": 85.95,
       "expected_loss": -164.05,
-      "actual_pnl": 213.56,
+      "actual_pnl": 212.89,
       "confidence": 85,
       "reason": "BOS + FVG on XAUUSD",
       "source": "autotrade-sim",
       "account": "demo",
       "status": "closed",
-      "closed_time": "2026-08-04T21:51:09.678251+00:00"
+      "closed_time": "2026-08-04T21:58:38.007269+00:00"
     }
   ]
 }
