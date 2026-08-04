@@ -14,14 +14,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "whts the totale number of trades yu placed today and the wins and the loss and ovwerl pnl"
-    },
-    {
-      "role": "model",
-      "text": "{\"reply\": \"Here's a summary of today's trading activity:\n\n**Total Trades:** 5\n\n**Wins:** 3\n\n* **ETHUSD BUY**: $2.11 profit\n* **BTCUSD BUY**: $176.76 profit\n* **BTCUSD BUY (earlier trade)**: $564.36 profit (not shown in the recent trades list, but part of the day's activity)\n\n**Losses:** 2\n\n* **XAUUSD BUY**: -$352.80 loss\n* **XAUUSD BUY (later trade)**: -$165.92 loss\n\n**Overall P/L:** $224.45 profit\n\nThe Auto-Trader's strategy and risk management helped to limit losses and capitalize on profitable opportunities, resulting in a positive overall P/L for the day. If you have any questions or would like more information, feel free to ask!\", \"settings_update\": {\"symbol\": null, \"interval\": null, \"volume\": null, \"risk_notes\": null}, \"trade_action\": null, \"close_action\": null}"
-    },
-    {
-      "role": "user",
       "text": "hi"
     },
     {
@@ -171,6 +163,14 @@
     {
       "role": "model",
       "text": "Hello again! Let me know what you'd like to do. We currently have an open XAUUSD buy position from the auto-trader, and our latest scan flagged XAUUSD (85% confidence) and USDCAD (75% confidence) with bullish setups. How can I help you right now?"
+    },
+    {
+      "role": "user",
+      "text": "place a trade on my meta demo acount"
+    },
+    {
+      "role": "model",
+      "text": "I'm currently operating in council/advisory mode, so I can't execute trades directly from here. To place a trade on your demo account, please specify whether you'd like to BUY or SELL, the exact pair (e.g., XAUUSD), and lot size, or trigger the order directly through your primary dashboard trading tab!"
     }
   ],
   "sim_account": {
