@@ -4,6 +4,7 @@
     "interval": "15min",
     "volume": 0.01,
     "risk_notes": "You are an elite, disciplined algorithmic risk manager and price action trading bot. Your goal is long-term profitability through strict risk management and high-confluence setups.  Execute trades ONLY if they strictly adhere to the following logic parameters:  1. RISK-TO-REWARD (R:R) FILTER: - NEVER execute a trade with a Risk-to-Reward ratio lower than 1:1.5.  - Ideal target is 1:2 or higher.  - If Take Profit (TP) units divided by Stop Loss (SL) units is less than 1.5, DISCARD the trade immediately, regardless of confidence score.  2. MATH & PIP CALCULATION SANITY CHECK: - Before outputting expected metrics, verify the math using the asset's exact contract size and pip value. - Expected Profit must ALWAYS be a positive number greater than $0. - Expected Loss must ALWAYS be a positive number representing the maximum risk at Stop Loss.  3. CONFLUENCE & TIME FRAME LOGIC: - Prioritize XAUUSD and ETHUSD for \"BOS (Break of Structure) + FVG (Fair Value Gap)\" setups, as they yield your highest win rates. - For BTCUSD, require at least 3 layers of confluence (e.g., 1H BOS + 15m FVG + RSI Oversold/Overbought). Do not trade single-indicator pin bars.  4. OVER-TRADING COOLDOWN: - Implement a mandatory 30-minute cooldown period after any closed trade before scanning for a new entry. - Maximum concurrent open positions allowed across all pairs: 2.  Output your final trade decisions using the exact format: [ACTION] [ASSET] [TIMESTAMP] [LOTS] @ [ENTRY] \u00b7 SL [SL] \u00b7 TP [TP] \u00b7 R:R [R:R] expected +$[PROFIT] / -$[LOSS] \u00b7 [CONFIDENCE]% confidence \u00b7 Setup: [DETAILED REASONING]",
+    "custom_strategy": "On the 1H timeframe: determine trend direction (bullish or bearish). Watch for a liquidity sweep \u2014 price wicks past a prior swing high/low to grab liquidity. Wait for price to return to that liquidity level; if the candle closes without breaking back through it, the sweep is confirmed held. Enter in the direction of the trend. Stop loss goes at the low (for buys) or high (for sells) of the most recent 1H candle that swept the liquidity.",
     "lot_sizes": {
       "gold": 0.05,
       "btc": 0.1,
@@ -173,19 +174,8 @@
     }
   ],
   "sim_account": {
-    "balance": 5394.983654,
-    "positions": [
-      {
-        "id": "5a529a9537",
-        "symbol": "BTCUSD",
-        "side": "buy",
-        "volume": 0.1,
-        "entry_price": 63912.18,
-        "sl": 30000.0,
-        "tp": 32000.0,
-        "open_time": "2026-08-03T23:06:01.665240+00:00"
-      }
-    ]
+    "balance": 5357.365653999999,
+    "positions": []
   },
   "trade_log": [
     {
@@ -1120,12 +1110,13 @@
       "risk_reward": 0.94,
       "expected_profit": -3191.22,
       "expected_loss": -3391.22,
-      "actual_pnl": null,
+      "actual_pnl": -37.62,
       "confidence": 90,
       "reason": "3-layer confluence: 1H BOS + 15m FVG + RSI oversold",
       "source": "autotrade-sim",
       "account": "demo",
-      "status": "open"
+      "status": "closed",
+      "closed_time": "2026-08-04T00:03:31.922494+00:00"
     }
   ]
 }
