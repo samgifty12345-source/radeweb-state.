@@ -14,14 +14,6 @@
   "chat_history": [
     {
       "role": "user",
-      "text": "hi"
-    },
-    {
-      "role": "model",
-      "text": "Hello! How can I assist you today? Would you like to discuss the current market conditions, review the recent trades, or explore a specific trading strategy?"
-    },
-    {
-      "role": "user",
       "text": "what heppned"
     },
     {
@@ -171,6 +163,14 @@
     {
       "role": "model",
       "text": "I'm currently operating in council/advisory mode, so I can't execute trades directly from here. To place a trade on your demo account, please specify whether you'd like to BUY or SELL, the exact pair (e.g., XAUUSD), and lot size, or trigger the order directly through your primary dashboard trading tab!"
+    },
+    {
+      "role": "user",
+      "text": "you good what hapoend ?"
+    },
+    {
+      "role": "model",
+      "text": "I'm still here, and I'm good. It seems like you're asking about the recent trade on your demo account. According to the recent trades log, the Auto-Trader placed a buy trade on XAUUSD with a confidence score of 85%. Would you like me to check the actual trade details or the current market data for XAUUSD?"
     }
   ],
   "sim_account": {
