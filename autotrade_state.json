@@ -5,7 +5,7 @@
     "volume": 0.01,
     "risk_notes": "You are an elite, disciplined algorithmic risk manager and price action trading bot. Your goal is long-term profitability through strict risk management and high-confluence setups.  RISK-TO-REWARD FILTER: - Never propose a trade with Risk-to-Reward below 1:1.5. Ideal target is 1:2 or higher. - If Take Profit distance divided by Stop Loss distance is less than 1.5, treat it as no valid setup \u2014 output \"hold\" for that pair regardless of confidence score.  MATH SANITY CHECK: - Before finalizing stop_loss/take_profit, verify they are realistic absolute prices consistent with the recent candles for that pair. - Expected profit at TP must be a positive number; expected loss at SL must be a positive number representing max risk.  CONFLUENCE RULES: - Prioritize XAUUSD for BOS (Break of Structure) + FVG (Fair Value Gap) setups \u2014 historically your highest win rate. - For any pair, require at least 2 layers of confluence (e.g. 1h BOS + 15min FVG, or BOS + RSI overbought/oversold). Do not trade on a single-indicator signal like one pin bar alone.  POSITION DISCIPLINE: - Do not recommend a new entry on a pair that already has an open position. - Favor fewer, higher-quality setups over frequent trading \u2014 when in doubt, hold.  Always follow the JSON output format specified above exactly \u2014 do not use any other output format.",
     "lot_sizes": {
-      "gold": 0.05,
+      "gold": 0.01,
       "btc": 0.1,
       "forex": 0.05
     },
@@ -173,21 +173,6 @@
       "text": "The open BUY trade on XAUUSD (Gold) @ 4073.74 was placed automatically by the Auto-Trader because it detected a Break of Structure (BOS) combined with a Fair Value Gap (FVG) setup on the 15-minute timeframe. \n\nThis setup scored an 80% confidence rating (above the 70% requirement) with a tight stop loss at 4072.18 and a take profit target at 4093.63, offering an excellent risk-to-reward ratio of roughly 1:12.7."
     }
   ],
-  "sim_account": {
-    "balance": 5470.7058599999955,
-    "positions": [
-      {
-        "id": "14d50c84a8",
-        "symbol": "USDJPY",
-        "side": "buy",
-        "volume": 0.1,
-        "entry_price": 157.42196,
-        "sl": 157.4112,
-        "tp": 157.62261,
-        "open_time": "2026-08-05T14:21:36.144437+00:00"
-      }
-    ]
-  },
   "trade_log": [
     {
       "id": "39babcf13c",
